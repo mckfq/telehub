@@ -1,0 +1,23 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="RTP1.pt" group-title="1. Portugal",RTP1
+https://ddy6new.iosplayer.ru/ddy6/premium719/mono.m3u8
+#EXTINF:-1 tvg-id="RTP2.pt" group-title="1. Portugal",RTP2
+https://ddy6new.iosplayer.ru/ddy6/premium720/mono.m3u8
+#EXTINF:-1 tvg-id="SIC.pt" group-title="1. Portugal",SIC
+https://ddy6new.iosplayer.ru/ddy6/premium722/mono.m3u8
+#EXTINF:-1 tvg-id="TVI.pt" group-title="1. Portugal",TVI
+https://ddy6new.iosplayer.ru/ddy6/premium723/mono.m3u8
+#EXTINF:-1 tvg-id="RTP3.pt" group-title="1. Portugal",RTP3
+https://ddy6new.iosplayer.ru/ddy6/premium721/mono.m3u8
+#EXTINF:-1 tvg-id="SportTV1.pt" group-title="1. Portugal",SportTV 1
+https://ddy6new.iosplayer.ru/ddy6/premium49/mono.m3u8
+#EXTINF:-1 tvg-id="SportTV2.pt" group-title="1. Portugal",SportTV 2
+https://ddy6new.iosplayer.ru/ddy6/premium74/mono.m3u8
+#EXTINF:-1 tvg-id="SportTV3.pt" group-title="1. Portugal",SportTV 3
+https://ddy6new.iosplayer.ru/ddy6/premium454/mono.m3u8
+#EXTINF:-1 tvg-id="SportTV4.pt" group-title="1. Portugal",SportTV 4
+https://ddy6new.iosplayer.ru/ddy6/premium289mono.m3u8
+#EXTINF:-1 tvg-id="SportTV5.pt" group-title="1. Portugal",SportTV 5
+https://ddy6new.iosplayer.ru/ddy6/premium290/mono.m3u8
+#EXTINF:-1 tvg-id="SportTV6.pt" group-title="1. Portugal",SportTV 6
+https://ddy6new.iosplayer.ru/ddy6/premium291mono.m3u8
