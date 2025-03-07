@@ -148,20 +148,28 @@ https://zekonew.koskoros.ru/zeko/premium446/mono.m3u8|Referer=https://cookiewebp
 https://zekonew.koskoros.ru/zeko/premium447/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="DAZN4.es" group-title="Sports",DAZN 4 Espana
 https://zekonew.koskoros.ru/zeko/premium448/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="DAZN1.es" group-title="Sports",DAZN 1 Espana
-https://windnew.koskoros.ru/wind/premium445/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="DAZN1.es" group-title="Sports",DAZN 1 Espana
-https://windnew.koskoros.ru/wind/premium445/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="DAZN1.es" group-title="Sports",DAZN 1 Espana
-https://windnew.koskoros.ru/wind/premium445/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="DAZNLL1.es" group-title="Sports",DAZN LaLiga 1
+https://dokko1new.koskoros.ru/dokko1/premium538/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="DAZNLL2.es" group-title="Sports",DAZN LaLiga 2
+https://windnew.koskoros.ru/wind/premium43/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="DAZNF1.es" group-title="Sports",DAZN F1 Eespana
+https://dokko1new.koskoros.ru/dokko1/premium537/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 
+#EXTINF:-1 tvg-id="LaligaTV.es" group-title="Sports",LaLiga TV
+https://dokko1new.koskoros.ru/dokko1/premium539/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 
-
-
-
-
-
-
+#EXTINF:-1 tvg-id="MoviLL.es" group-title="Sports",Movistar LaLiga
+https://windnew.koskoros.ru/wind/premium84/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="MoviLDC.es" group-title="Sports",Movistar Liga de Campeones
+https://zekonew.koskoros.ru/zeko/premium435/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="MoviD1.es" group-title="Sports",Movistar Deportes
+https://zekonew.koskoros.ru/zeko/premium436/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="MoviD2.es" group-title="Sports",Movistar Deportes 2
+https://zekonew.koskoros.ru/zeko/premium438/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="MoviLDC.es" group-title="Sports",Movistar Deportes 3
+https://dokko1new.koskoros.ru/dokko1/premium526/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="MoviLDC.es" group-title="Sports",Movistar Deportes 4
+https://dokko1new.koskoros.ru/dokko1/premium527/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 
 # Germany
 
@@ -169,17 +177,10 @@ https://windnew.koskoros.ru/wind/premium445/mono.m3u8|Referer=https://cookiewebp
 https://ddy6new.iosplayer.ru/ddy6/premium558/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="SkyTE.de" group-title="Sports",Sky Sports Top Event DE
 https://dokko1new.koskoros.ru/dokko1/premium556/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-
-
-
-
-
-
-
-
-
-
-
+#EXTINF:-1 tvg-id="DAZN1.de" group-title="Sports",DAZN 1 Deutschland
+https://ddy6new.iosplayer.ru/ddy6/premium426/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="DAZN2.de" group-title="Sports",DAZN 2 Deutschland
+https://ddy6new.iosplayer.ru/ddy6/premium427/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 
 # Link to test
 
