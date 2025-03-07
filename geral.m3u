@@ -40,8 +40,51 @@ https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/fr4.m3u8
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/N9d4yXt/fr5bl.png",France 5
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/fr5.m3u8
+##EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/wgJTdGY/m6.png",M6
+http://gratuittv.free.fr/Files/m6/live/playlist.m3u8
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/BPpZPBn/arte.png",Arte
 https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
+#EXTINF:-1 group-title="France" tvg-id="AssembleeNationale.fr",Assemblée Nationale
+http://anorigin.vodalys.com/live/live36/index36_12856975.m3u8?DVR=
+#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/LNRd253/w9.png",W9
+http://gratuittv.free.fr/Files/w9/live/playlist.m3u8
+#EXTINF:-1 group-title="France" tvg-id="TMC.fr",TMC
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tmc.m3u8
+#EXTINF:-1 group-title="France" tvg-id="TFX.fr",TFX
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tfx.m3u8
+#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/LQXjFc3/gulli.png",Gulli
+https://origin-caf900c010ea8046.live.6cloud.fr/out/v1/c65696b42ca34e97a9b5f54758d6dd50/cmaf/hlsfmp4_short_q2hyb21h_gulli_sd_index.m3u8
+#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/kckRLh5/bfm.png",BFM TV
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?start=LIVE&end=END
+#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/qY6w8ds/cnews.png",CNews
+https://hls-m015-live-aka-canalplus.akamaized.net/live/disk/cnews-clair-hd/hls-v3-hd-clair/cnews-clair-hd.m3u8
+#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/Zfcrrr1/lci.png",LCI
+https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/btv/py/lci1.m3u8
+#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/XkLHrbC/frinfo2bl.png",franceinfo:
+https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/frin.m3u8
+#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/Sm9PtLR/cstar.png",CStar
+https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/canalplus/cstar-dm.m3u8
+#EXTINF:-1 group-title="France" tvg-id="TF1SeriesFilms.fr",TF1 Séries Films
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tf1sf.m3u8
+#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/KXhYwm0/lequipe.png",L'Équipe TV
+https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/dmotion/py/eqpe/ekip.m3u8
+#EXTINF:-1 group-title="France" tvg-id="6ter.fr",6ter
+https://origin-caf900c010ea8046.live.6cloud.fr/out/v1/29c7a579af3348b48230f76cd75699a5/dash_short_cenc10_6ter_hd_index.mpd
+#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/fdYg3Lz/rmcstory.png",RMC Story
+https://d36bxc1bknkxrk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3ewcp19zjaxpt/index.m3u8
+#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/VS4xR2g/rmcdecou.png",RMC Découverte
+https://d2mt8for1pddy4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6uronj7gzvy4j/index.m3u8
+#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/R3KG4L9/cherie25.png",Chérie 25
+https://cherie25.nrjaudio.fm/hls/live/2038375/c25/master.m3u8
+
+#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/vmqkmDB/moselle.jpg",Moselle TV
+https://live.creacast.com/mirabelletv/smil:mirabelletv.smil/playlist.m3u8
+#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/qkkHNPR/vosges.png",Vosges TV
+https://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8
+#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/KGNTppx/nancyweb.jpg",Nancy Web TV
+https://edge12.vedge.infomaniak.com/livecast/ik:nancy-webtv/manifest.m3u8
+#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/1rDLsMp/puisstv.png",Puissance TV
+https://edge13.vedge.infomaniak.com/livecast/ik:puissancetelevision/manifest.m3u8
 
 # Beachcam Portugal
 
