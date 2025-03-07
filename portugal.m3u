@@ -2,200 +2,32 @@
 
 For personal use ONLY - Sharing is stricly forbidden
 
-#Info
-
-#EXTINF:-1 tvg-id="CNN.us" group-title="2. Info",CNN
-https://ddy6new.iosplayer.ru/ddy6/premium345/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="CNBC.us" group-title="2. Info",CNBC
-https://ddy6new.iosplayer.ru/ddy6/premium309/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BBCNews.uk" group-title="2. Info",BBC News
-https://ddy6new.iosplayer.ru/ddy6/premium349/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="2. Info" tvg-id="SkyNewsInternational.uk" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Sky-News.png",Sky News
-#KODIPROP:inputstream=inputstream.adaptive
-https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
-#EXTINF:-1 group-title="2. Info" tvg-id="NHKWorldJapan.jp" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/NHK-World.png",NHK World Japan
-#KODIPROP:inputstream=inputstream.adaptive
-https://cdn.nhkworld.jp/www11/nhkworld-tv/domestic/2003459/live.m3u8
-#EXTINF:-1 tvg-id="ICIRDI.ca" group-title="2. Info" tvg-logo="https://i.ibb.co/sd7qf1w7/icirdiqb.png",ICI RDI
-https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master.m3u8
-#EXTINF:-1  tvg-id="CBCNews.ca" group-title="2. Info" tvg-logo="https://i.ibb.co/Vt0XZKf/Cbcnews.png",CBC News
-https://d36tuf8zz9b2bm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-hfw6opvomwxih/CBC_News_International.m3u8
-#EXTINF:-1 tvg-id="AlJazeera.ar" group-title="2. Info" tvg-logo="https://i.ibb.co/MGW5Vv9/aljaz.png",Al Jazeera
-https://live-hls-web-aje.getaj.net/AJE/master.m3u8
-#EXTINF:-1 tvg-id="CSPAN.us" group-title="2. Info",C-SPAN
-https://ddy6new.iosplayer.ru/ddy6/premium350/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-
-
 # Portugal
 
-#EXTINF:-1 tvg-id="RTP1.pt" group-title="1. Geral",RTP1
+#EXTINF:-1 tvg-id="RTP1.pt" group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP1
 https://ddy6new.iosplayer.ru/ddy6/premium719/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="RTP2.pt" group-title="1. Geral",RTP2
+#EXTINF:-1 tvg-id="RTP2.pt" group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP2
 https://ddy6new.iosplayer.ru/ddy6/premium720/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="SIC.pt" group-title="1. Geral",SIC
+#EXTINF:-1 tvg-id="SIC.pt" group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
 https://ddy6new.iosplayer.ru/ddy6/premium722/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 group-title="1. Geral" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI HD
-#KODIPROP:inputstream=inputstream.adaptive
 https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My83LzIwMjUgMTA6Njo1MiBBTSZoYXNoX3ZhbHVlPXduc0NZajNsaDZRcGx2TWlHQVlSVEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1lNjQ0NGU5Ni1hYzMyLTRkYjUtYjA4OC0yMDRiYjgwNDRiZjk=/
-#EXTINF:-1 tvg-id="RTP3.pt" group-title="1. Geral",RTP3
+#EXTINF:-1 tvg-id="RTP3.pt" group-title="TV",RTP3
 https://ddy6new.iosplayer.ru/ddy6/premium721/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="1. Geral" tvg-id="SICNoticias.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Notícias.png",SIC Notícias
-#KODIPROP:inputstream=inputstream.adaptive
+#EXTINF:-1 group-title="TV" tvg-id="SICNoticias.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Notícias.png",SIC Notícias
 #EXTVLCOPT:http-referrer=https://sic.pt/
 #https://sicnot.live.impresa.pt/sicnot.m3u8
 https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="CNNPortugal.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
-#KODIPROP:inputstream=inputstream.adaptive
+#EXTINF:-1 group-title="TV" tvg-id="CNNPortugal.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
 https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My83LzIwMjUgMTA6Njo1MyBBTSZoYXNoX3ZhbHVlPTgzT0NraFNBVW0vckludjhtSmFsRFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMTdlYjExMS0yMTc1LTQwOTUtODJhZC1jZTYyNTY1MGEyNzU=/
-#EXTINF:-1 group-title="1. Geral" tvg-id="EuronewsPortuguese.fr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",Euronews PT
-#KODIPROP:inputstream=inputstream.adaptive
+#EXTINF:-1 group-title="TV" tvg-id="EuronewsPortuguese.fr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",Euronews PT
 https://euronews-live-por-pt.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6572/7392d4f0-7e24-4dbe-8482-f165e712eeed/5.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="EuronewsPortuguese.fr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",Euronews Portugues
+#EXTINF:-1 group-title="TV" tvg-id="EuronewsPortuguese.fr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",Euronews Portugues
 #https://youtu.be/XuZAl-ZPEcA
-#EXTINF:-1 group-title="1. Geral" tvg-id="ARTV.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ARTV.png",ARTV
-#KODIPROP:inputstream=inputstream.adaptive
+#EXTINF:-1 group-title="TV" tvg-id="ARTV.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ARTV.png",ARTV
 https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8
-#EXTINF:-1 tvg-id="AXNMovies.pt" group-title="1. Geral",AXN Movies
+#EXTINF:-1 tvg-id="AXNMovies.pt" group-title="TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d2/AXN_Movies_logo.jpg",AXN Movies
 https://ddy6new.iosplayer.ru/ddy6/premium717/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-
-# France
-
-#EXTINF:-1 group-title="1. Geral" tvg-id="TF1.fr" tvg-logo="https://i.ibb.co/BBpR1Wx/tf1.png",TF1
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tf1.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="France2.fr" tvg-logo="https://i.ibb.co/GxWtcTm/fr2bl.png",France 2
-https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/fr2.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="France 3.fr" tvg-logo="https://i.ibb.co/y8PjbJ4/fr3bl.png",France 3
-https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/flor.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="France 4.fr" tvg-logo="https://i.ibb.co/VgcrtZ5/fr4blok.png",France 4
-https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/fr4.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="France 5.fr" tvg-logo="https://i.ibb.co/N9d4yXt/fr5bl.png",France 5
-https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/fr5.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="M6.fr" tvg-logo="https://i.ibb.co/wgJTdGY/m6.png",M6
-http://gratuittv.free.fr/Files/m6/live/playlist.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="arte.fr" tvg-logo="https://i.ibb.co/BPpZPBn/arte.png",arte
-https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/LNRd253/w9.png" user-agent="VAVOO/1.0" referer="https://vavoo.to/",W9
-https://joaquinito02.es/vavoo/128046615.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="TMC.fr" tvg-logo="https://i.ibb.co/hKVyKj4/tmc.png",TMC
-https://github.com/Paradise-91/ParaTV/raw/main/streams/tf1plus/tmc.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="TFX.fr",TFX
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tfx.m3u8
-#EXTINF:-1 roup-title="1. Geral" tvg-id="Gulli.fr" tvg-logo="https://i.ibb.co/LQXjFc3/gulli.png",Gulli
-https://origin-caf900c010ea8046.live.6cloud.fr/out/v1/c65696b42ca34e97a9b5f54758d6dd50/cmaf/hlsfmp4_short_q2hyb21h_gulli_sd_index.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="BFMTV.fr" tvg-logo="https://i.ibb.co/kckRLh5/bfm.png",BFM TV
-https://live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="CNews.fr" tvg-logo="https://i.ibb.co/qY6w8ds/cnews.png",CNews
-https://hls-m015-live-aka-canalplus.akamaized.net/live/disk/cnews-clair-hd/hls-v3-hd-clair/cnews-clair-hd.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="LCI.fr" tvg-logo="https://i.ibb.co/Zfcrrr1/lci.png",LCI
-https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/btv/py/lci1.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="franceinfo.fr" tvg-logo="https://i.ibb.co/XkLHrbC/frinfo2bl.png",franceinfo:
-https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/frin.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-logo="https://i.ibb.co/Sm9PtLR/cstar.png",CStar
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/canalplus/cstar-dm.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="TF1SeriesFilms.fr",TF1 Séries Films
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tf1sf.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="LEquipeTV.fr" tvg-logo="https://i.ibb.co/KXhYwm0/lequipe.png",L'Équipe TV
-https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/dmotion/py/eqpe/ekip.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/fdYg3Lz/rmcstory.png",RMC Story
-https://d36bxc1bknkxrk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3ewcp19zjaxpt/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/VS4xR2g/rmcdecou.png",RMC Découverte
-https://d2mt8for1pddy4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6uronj7gzvy4j/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/R3KG4L9/cherie25.png",Cherie 25
-https://cherie25.nrjaudio.fm/hls/live/2038375/c25/master.m3u8
-#EXTINF:-1 tvg-id="Canal+.fr" group-title="1. Geral",Canal+
-https://ddy6new.iosplayer.ru/ddy6/premium121/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-
-# France Grand Est
-
-#EXTINF:-1 group-title="1. Geral" tvg-id="BFMAlsace.fr" tvg-logo="https://i.ibb.co/mzhSFNV/bfmregions.png",BFM Alsace
-https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_ALSACE/index.m3u8?start=LIVE&end=END
-#EXTINF:-1 group-title="1. Geral" tvg-id="MoselleTV.fr" tvg-logo="https://i.ibb.co/vmqkmDB/moselle.jpg",Moselle TV
-https://live.creacast.com/mirabelletv/smil:mirabelletv.smil/playlist.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="VosgesTV.fr" tvg-logo="https://i.ibb.co/qkkHNPR/vosges.png",Vosges TV
-https://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="PuissanceTV.fr" tvg-logo="https://i.ibb.co/1rDLsMp/puisstv.png",Puissance TV
-https://edge13.vedge.infomaniak.com/livecast/ik:puissancetelevision/manifest.m3u8
-
-# Spain
-
-#EXTINF:-1 tvg-id="TVE1.es" group-title="1. Geral",TVE1
-https://ddy6new.iosplayer.ru/ddy6/premium533/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="TVE2.es" group-title="1. Geral",TVE2
-https://ddy6new.iosplayer.ru/ddy6/premium536/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="Antena3.es" group-title="1. Geral",Antena 3
-https://ddy6new.iosplayer.ru/ddy6/premium531/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="Cuatro.es" group-title="1. Geral",Cuatro
-https://ddy6new.iosplayer.ru/ddy6/premium535/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="Telecinco.es" group-title="1. Geral",Telecinco
-https://ddy6new.iosplayer.ru/ddy6/premium532/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="LaSexta.es" group-title="1. Geral",La Sexta
-https://ddy6new.iosplayer.ru/ddy6/premium534/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="1. Geral" tvg-id="TVGalicia.es" tvg-logo="https://i.ibb.co/LtG0fMD/galic.jpg",TVG Galicia
-https://crtvg-europa.flumotion.cloud/playlist.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="EITB1.es" tvg-logo="https://i.ibb.co/FhXvbPN/eitb.jpg",EITB 1
-https://multimedia.eitb.eus/live-content/etb1hd-hls/master.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="EITB2.es" tvg-logo="https://i.ibb.co/FhXvbPN/eitb.jpg",EITB 2
-https://multimedia.eitb.eus/live-content/etb2hd-hls/master.m3u8
-
-# Italy
-
-#EXTINF:-1 tvg-id="Rai1.it" group-title="1. Geral",Rai 1
-https://ddy6new.iosplayer.ru/ddy6/premium850/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="Rai2.it" group-title="1. Geral",Rai 2
-https://ddy6new.iosplayer.ru/ddy6/premium851/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="Rai3.it" group-title="1. Geral",Rai 3
-https://ddy6new.iosplayer.ru/ddy6/premium852/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="Italia1.it" group-title="1. Geral",Italia 1
-https://ddy6new.iosplayer.ru/ddy6/premium854/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="La7.ot" group-title="1. Geral",La7
-https://ddy6new.iosplayer.ru/ddy6/premium856/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="Mediaset.it" group-title="1. Geral",20 Mediaset
-https://ddy6new.iosplayer.ru/ddy6/premium857/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-
-# Germany
-
-#EXTINF:-1 group-title="1. Geral" tvg-id="DasErste.de",Das Erste
-https://derste247liveint.akamaized.net/hls/live/662735/daserste_int/master.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="RTL.de" tvg-logo="https://i.ibb.co/Msmh0pG/rtlde.png",RTL
-https://ma.anixa.tv/clips/stream/rtl/index.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="3sat.de" tvg-logo="https://i.ibb.co/Msmh0pG/rtlde.png",3sat
-https://ddy6new.iosplayer.ru/ddy6/premium726/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="1. Geral" tvg-id="RTLZwei.de",RTL Zwei
-http://178.219.128.68:64888/RTL2
-#EXTINF:-1 tvg-id="SAT1.de" group-title="1. Geral",SAT.1
-https://ddy6new.iosplayer.ru/ddy6/premium729/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="Pro7.de" group-title="1. Geral",ProSieben
-https://ddy6new.iosplayer.ru/ddy6/premium730/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="SWR.de" group-title="1. Geral",SWR
-https://ddy6new.iosplayer.ru/ddy6/premium735/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-
-# Luxembourg
-
-#EXTINF:-1 group-title="1. Geral" tvg-id="RTL.lu" tvg-logo="https://i.ibb.co/VprDD5J/rtllux.png",RTL Letzebuerg
-https://live-edge.rtl.lu/channel1/smil:channel1/playlist.m3u8
-#EXTINF:-1 group-title="1. Geral" tvg-id="RTLZwee.lu" tvg-logo="https://i.ibb.co/VprDD5J/rtllux.png",RTL Zwee Letzebuerg
-https://stream.rtl.lu/data/live/tele/channel2/playlist.m3u8
-
-# Finland
-#EXTINF:-1 group-title="1. Geral" tvg-id="Yle.fi" tvg-logo="https://i.ibb.co/r29pMj4B/Ylew.png",YLE
-https://yletvworld.akamaized.net/hls/live/622540/yletv1w/index.m3u8
-
-# Denmark
-#EXTINF:-1 group-title="1. Geral" tvg-id="DR.dk" tvg-logo="https://i.ibb.co/6Rdh3h1Q/drtva.png",DR
-https://drlivedrtvahls.akamaized.net/hls/live/2113613/drlivedrtva/master.m3u8
-
-# Poland
-
-#EXTINF:-1 tvg-id="TVP1.pl" group-title="1. Geral",TVP1
-https://ddy6new.iosplayer.ru/ddy6/premium560/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="TVP2.pl" group-title="1. Geral",TVP2
-https://ddy6new.iosplayer.ru/ddy6/premium561/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="Polsat.pl" group-title="1. Geral",Polsat
-https://ddy6new.iosplayer.ru/ddy6/premium562/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="TVN24.pl" group-title="1. Geral",TVN24
-https://ddy6new.iosplayer.ru/ddy6/premium444/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="TVNHD.pl" group-title="1. Geral",TVN HD
-https://ddy6new.iosplayer.ru/ddy6/premium565/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 
 # Sports
 
@@ -214,92 +46,21 @@ https://ddy6new.iosplayer.ru/ddy6/premium291/mono.m3u8|Referer=https://cookieweb
 #EXTINF:-1 tvg-id="Eleven Sports 1.pt" group-title="0. Sports",Eleven Sports 1
 https://ddy6new.iosplayer.ru/ddy6/premium455/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="Eleven Sports 2.pt" group-title="0. Sports",Eleven Sports 2
-https://ddy6new.iosplayer.ru/ddy6/premium456/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://windnew.koskoros.ru/wind/premium456/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="Eleven Sports 3.pt" group-title="0. Sports",Eleven Sports 3
-https://ddy6new.iosplayer.ru/ddy6/premium457/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://windnew.koskoros.ru/wind/premium457/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="Eleven Sports 4.pt" group-title="0. Sports",Eleven Sports 4
-https://ddy6new.iosplayer.ru/ddy6/premium458/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://windnew.koskoros.ru/wind/premium458/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="Eleven Sports 5.pt" group-title="0. Sports",Eleven Sports 5
 https://ddy6new.iosplayer.ru/ddy6/premium459/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="Canal11.pt" group-title="0. Sports",Canal 11
 https://ddy6new.iosplayer.ru/ddy6/premium540/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="BTV.pt" group-title="0. Sports",Benfica TV
-https://ddy6new.iosplayer.ru/ddy6/premium380/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://dokko1new.koskoros.ru/dokko1/premium380/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="PortoCanal.pt" group-title="0. Sports",Porto Canal
 https://ddy6new.iosplayer.ru/ddy6/premium718/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="SportingTV.pt" group-title="0. Sports",Sporting TV
 https://ddy6new.iosplayer.ru/ddy6/premium716/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BeIN Sports 1.fr" group-title="0. Sports",BeIN Sports 1
-https://ddy6new.iosplayer.ru/ddy6/premium116/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BeIN Sports 2.fr" group-title="0. Sports",BeIN Sports 2
-https://ddy6new.iosplayer.ru/ddy6/premium117/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BeIN Sports 3.fr" group-title="0. Sports",BeIN Sports 3
-https://ddy6new.iosplayer.ru/ddy6/premium118/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BeIN Sports MAX 4.fr" group-title="0. Sports",BeIN Sports MAX 4
-https://ddy6new.iosplayer.ru/ddy6/premium494/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BeIN Sports MAX 5.fr" group-title="0. Sports",BeIN Sports MAX 5
-https://ddy6new.iosplayer.ru/ddy6/premium495/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BeIN Sports MAX 6.fr" group-title="0. Sports",BeIN Sports MAX 6
-https://ddy6new.iosplayer.ru/ddy6/premium496/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BeIN Sports MAX 7.fr" group-title="0. Sports",BeIN Sports MAX 7
-https://ddy6new.iosplayer.ru/ddy6/premium497/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BeIN Sports MAX 8.fr" group-title="0. Sports",BeIN Sports MAX 8
-https://ddy6new.iosplayer.ru/ddy6/premium498/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BeIN Sports MAX 9.fr" group-title="0. Sports",BeIN Sports MAX 9
-https://ddy6new.iosplayer.ru/ddy6/premium499/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BeIN Sports MAX 10.fr" group-title="0. Sports",BeIN Sports MAX 10
-https://ddy6new.iosplayer.ru/ddy6/premium500/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="Canal+ Sport.fr" group-title="0. Sports",Canal+ Sport
-https://ddy6new.iosplayer.ru/ddy6/premium122/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="Canal+ Sport360.fr" group-title="0. Sports",Canal+ Sport360
-https://ddy6new.iosplayer.ru/ddy6/premium464/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="Canal+ Foot.fr" group-title="0. Sports",Canal+ Foot
-https://ddy6new.iosplayer.ru/ddy6/premium463/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="RDS.ca" group-title="0. Sports",RDS
-https://ddy6new.iosplayer.ru/ddy6/premium839/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="RDS 2.ca" group-title="0. Sports",RDS 2
-https://ddy6new.iosplayer.ru/ddy6/premium840/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="RDS Info.ca" group-title="0. Sports",RDS Info
-https://ddy6new.iosplayer.ru/ddy6/premium841/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="TSN 1.ca" group-title="0. Sports",TSN 1
-https://ddy6new.iosplayer.ru/ddy6/premium111/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="TSN 2.ca" group-title="0. Sports",TSN 2
-https://ddy6new.iosplayer.ru/ddy6/premium112/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="TSN 3.ca" group-title="0. Sports",TSN 3
-https://ddy6new.iosplayer.ru/ddy6/premium113/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="TSN 4.ca" group-title="0. Sports",TSN 4
-https://ddy6new.iosplayer.ru/ddy6/premium114/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="TSN 5.ca" group-title="0. Sports",TSN 5
-https://ddy6new.iosplayer.ru/ddy6/premium115/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="Sportsnet1.ca" group-title="0. Sports",Sportsnet One
-https://ddy6new.iosplayer.ru/ddy6/premium411/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="SportsnetW.ca" group-title="0. Sports",Sportsnet West
-https://ddy6new.iosplayer.ru/ddy6/premium407/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="SportsnetE.ca" group-title="0. Sports",Sportsnet East
-https://ddy6new.iosplayer.ru/ddy6/premium408/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="SportsnetOntario.ca" group-title="0. Sports",Sportsnet Ontario
-https://ddy6new.iosplayer.ru/ddy6/premium406/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="SportsnetNY.ca" group-title="0. Sports",Sportsnet New York
-https://ddy6new.iosplayer.ru/ddy6/premium759/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="Sportsnet360.ca" group-title="0. Sports",Sportsnet 360
-https://ddy6new.iosplayer.ru/ddy6/premium409/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="SkySportsFUK.uk" group-title="0. Sports",Sky Sports Football UK
-https://zekonew.koskoros.ru/zeko/premium35/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="SkySportsArena.uk" group-title="0. Sports",Sky Sports Arena
-https://ddy6new.iosplayer.ru/ddy6/premium36/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="SkySportsME.uk" group-title="0. Sports",Sky Sports Main Event
-https://ddy6new.iosplayer.ru/ddy6/premium38/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="SkySportsF1.uk" group-title="0. Sports",Sky Sports F1
-https://ddy6new.iosplayer.ru/ddy6/premium130/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="SkySportsPL.uk" group-title="0. Sports",Sky Sports Premier League
-https://dokko1new.koskoros.ru/dokko1/premium130/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="SkySportsBD1.uk" group-title="0. Sports",Sky Sports Bundesliga 1
-https://ddy6new.iosplayer.ru/ddy6/premium558/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="SkySportsIT.it" group-title="0. Sports",Sky Sports Football Italia
-https://ddy6new.iosplayer.ru/ddy6/premium460/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-
-
-
 
 # Beachcam
 
@@ -607,46 +368,3 @@ https://video-auth1.iol.pt/beachcam/bcmadeiraseixal/playlist.m3u8
 https://video-auth1.iol.pt/beachcam/bcfaja/playlist.m3u8
 #EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Madeira | Paul do Mar
 https://video-auth1.iol.pt/beachcam/bcpauldomar2/playlist.m3u8
-
-# Adult
-
-#EXTINF:-1 tvg-id="XXX1.xx" group-title="Adult Stream",XXX1
-https://ddy6new.iosplayer.ru/ddy6/premium501/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="XXX2.xx" group-title="Adult Stream",XXX2
-https://ddy6new.iosplayer.ru/ddy6/premium502/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="XXX3.xx" group-title="Adult Stream",XXX3
-https://ddy6new.iosplayer.ru/ddy6/premium503/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="XXX4.xx" group-title="Adult Stream",XXX4
-https://ddy6new.iosplayer.ru/ddy6/premium504/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="XXX5.xx" group-title="Adult Stream",XXX5
-https://ddy6new.iosplayer.ru/ddy6/premium505/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="XXX6.xx" group-title="Adult Stream",XXX6
-https://ddy6new.iosplayer.ru/ddy6/premium506/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="XXX7.xx" group-title="Adult Stream",XXX7
-https://ddy6new.iosplayer.ru/ddy6/premium507/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="XXX8.xx" group-title="Adult Stream",XXX8
-https://ddy6new.iosplayer.ru/ddy6/premium508/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="XXX9.xx" group-title="Adult Stream",XXX9
-https://ddy6new.iosplayer.ru/ddy6/premium509/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="XXX10.xx" group-title="Adult Stream",XXX10
-https://ddy6new.iosplayer.ru/ddy6/premium510/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="XXX11.xx" group-title="Adult Stream",XXX11
-https://ddy6new.iosplayer.ru/ddy6/premium511/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="XXX12.xx" group-title="Adult Stream",XXX12
-https://ddy6new.iosplayer.ru/ddy6/premium512/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="XXX13.xx" group-title="Adult Stream",XXX13
-https://ddy6new.iosplayer.ru/ddy6/premium513/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="XXX14.xx" group-title="Adult Stream",XXX14
-https://ddy6new.iosplayer.ru/ddy6/premium514/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="XXX15.xx" group-title="Adult Stream",XXX15
-https://ddy6new.iosplayer.ru/ddy6/premium515/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="XXX16.xx" group-title="Adult Stream",XXX16
-https://ddy6new.iosplayer.ru/ddy6/premium516/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="XXX117.xx" group-title="Adult Stream",XXX17
-https://ddy6new.iosplayer.ru/ddy6/premium517/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="XXX18.xx" group-title="Adult Stream",XXX18
-https://ddy6new.iosplayer.ru/ddy6/premium518/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="XXX19.xx" group-title="Adult Stream",XXX19
-https://ddy6new.iosplayer.ru/ddy6/premium519/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="XXX20.xx" group-title="Adult Stream",XXX20
-https://ddy6new.iosplayer.ru/ddy6/premium520/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
