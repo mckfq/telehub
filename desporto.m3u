@@ -106,6 +106,77 @@ https://windnew.koskoros.ru/wind/premium410/mono.m3u8|Referer=https://cookiewebp
 
 # United Kingdom
 
+#EXTINF:-1 tvg-id="Skyfoot.uk" group-title="Sports",Sky Sports Football UK
+https://zekonew.koskoros.ru/zeko/premium35/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="Skyarena.uk" group-title="Sports",Sky Sports Arena
+https://zekonew.koskoros.ru/zeko/premium36/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="SkyME.uk" group-title="Sports",Sky Sports Main Event
+https://zekonew.koskoros.ru/zeko/premium38/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="SkyPL.uk" group-title="Sports",Sky Sports Premier League
+https://dokko1new.koskoros.ru/dokko1/premium130/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="SkyF1.uk" group-title="Sports",Sky Sports F1
+https://windnew.koskoros.ru/wind/premium60/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+
+# Italy
+
+#EXTINF:-1 tvg-id="Skyfoot.it" group-title="Sports",Sky Sports Football Italia
+https://dokko1new.koskoros.ru/dokko1/premium460/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="Skyarena.it" group-title="Sports",Sky Sports Arena Italia
+https://ddy6new.iosplayer.ru/ddy6/premium462/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="SkyC.it" group-title="Sports",Sky Calcio
+https://windnew.koskoros.ru/wind/premium870/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="SkyC1.it" group-title="Sports",Sky Calcio 1
+https://zekonew.koskoros.ru/zeko/premium871/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="SkyC2.it" group-title="Sports",Sky Calcio 2
+https://windnew.koskoros.ru/wind/premium872/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="SkyC3.it" group-title="Sports",Sky Calcio 3
+https://windnew.koskoros.ru/wind/premium873/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="SkyC4.it" group-title="Sports",Sky Calcio 4
+https://windnew.koskoros.ru/wind/premium874/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="SkyC5.it" group-title="Sports",Sky Calcio 5
+https://windnew.koskoros.ru/wind/premium875/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="SkyC6.it" group-title="Sports",Sky Calcio 6
+https://windnew.koskoros.ru/wind/premium876/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+
+# Spain
+
+#EXTINF:-1 tvg-id="DAZN1.es" group-title="Sports",DAZN 1 Espana
+https://windnew.koskoros.ru/wind/premium445/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="DAZN2.es" group-title="Sports",DAZN 2 Espana
+https://zekonew.koskoros.ru/zeko/premium446/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="DAZN3.es" group-title="Sports",DAZN 3 Espana
+https://zekonew.koskoros.ru/zeko/premium447/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="DAZN4.es" group-title="Sports",DAZN 4 Espana
+https://zekonew.koskoros.ru/zeko/premium448/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="DAZN1.es" group-title="Sports",DAZN 1 Espana
+https://windnew.koskoros.ru/wind/premium445/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="DAZN1.es" group-title="Sports",DAZN 1 Espana
+https://windnew.koskoros.ru/wind/premium445/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="DAZN1.es" group-title="Sports",DAZN 1 Espana
+https://windnew.koskoros.ru/wind/premium445/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+
+
+
+
+
+
+
+
+
+# Germany
+
+#EXTINF:-1 tvg-id="SkyBD1.de" group-title="Sports",Sky Sports Bundesliga 1
+https://ddy6new.iosplayer.ru/ddy6/premium558/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="SkyTE.de" group-title="Sports",Sky Sports Top Event DE
+https://dokko1new.koskoros.ru/dokko1/premium556/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+
+
+
+
+
+
+
+
 
 
 
