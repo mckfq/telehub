@@ -2,7 +2,7 @@
 
 For personal use ONLY - Sharing is stricly forbidden
 
-# Portugal
+# France
 
 #EXTINF:-1 tvg-id="RTP1.pt" group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP1
 https://ddy6new.iosplayer.ru/ddy6/premium719/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
@@ -31,6 +31,34 @@ https://ddy6new.iosplayer.ru/ddy6/premium717/mono.m3u8|Referer=https://cookieweb
 
 # Sports
 
-#EXTINF:-1 tvg-id="BeIN1.fr" group-title="0. Sports",BeIN Sports 1
-https://windnew.koskoros.ru/wind/premium116/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="BeIN1.fr" group-title="Sports",BeIN Sports 1
+https://zekonew.koskoros.ru/zeko/premium116/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="BeIN2.fr" group-title="Sports",BeIN Sports 2
+https://zekonew.koskoros.ru/zeko/premium117/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="BeIN3.fr" group-title="Sports",BeIN Sports 3
+https://zekonew.koskoros.ru/zeko/premium118/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="BeIN4.fr" group-title="Sports",BeIN Sports MAX 4
+https://zekonew.koskoros.ru/zeko/premium116/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="BeIN5.fr" group-title="Sports",BeIN Sports MAX 5
+https://zekonew.koskoros.ru/zeko/premium116/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="BeIN6.fr" group-title="Sports",BeIN Sports MAX 6
+https://zekonew.koskoros.ru/zeko/premium116/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="BeIN7.fr" group-title="Sports",BeIN Sports MAX 7
+https://zekonew.koskoros.ru/zeko/premium116/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="BeIN8.fr" group-title="Sports",BeIN Sports MAX 8
+https://zekonew.koskoros.ru/zeko/premium116/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="BeIN9.fr" group-title="Sports",BeIN Sports MAX 9
+https://zekonew.koskoros.ru/zeko/premium116/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="BeIN10.fr" group-title="Sports",BeIN Sports MAX 10
+https://zekonew.koskoros.ru/zeko/premium116/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+
+
+
+
+
+
+
+
 https://ddy6new.iosplayer.ru/ddy6/premium719/mono.m3u8
+https://dokko1new.koskoros.ru/dokko1/premium74/mono.m3u8
+https://zekonew.koskoros.ru/zeko/premium35/mono.m3u8
