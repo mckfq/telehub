@@ -77,6 +77,8 @@ https://d36bxc1bknkxrk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://d2mt8for1pddy4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6uronj7gzvy4j/index.m3u8
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/R3KG4L9/cherie25.png",Chérie 25
 https://cherie25.nrjaudio.fm/hls/live/2038375/c25/master.m3u8
+#EXTINF:-1 group-title="France" tvg-name="Paris Première" tvg-id="ParisPremiere.fr" tvg-logo="https://github.com/inspirationlinks/m3u/raw/live/LogosTv/ParisPremi%C3%A8re.webp" ,Paris Première
+ http://gratuittv.free.fr/Files/parispremier/live/playlist.m3u8
 
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/ftYS2bk/CANAL-logo.png",Canal+
 https://windnew.koskoros.ru/wind/premium121/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
@@ -86,6 +88,9 @@ https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/HDB0sdh/bfmbusiness.png",BFM Business
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_BUSINESS/index.m3u8?start=LIVE&end=END
 
+#EXTINF:-1 group-title="France" tvg-id="BFMAlsace.fr" user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",BFM Alsace
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_ALSACE/index.m3u8?end=END&start=LIVE
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/vmqkmDB/moselle.jpg",Moselle TV
 https://live.creacast.com/mirabelletv/smil:mirabelletv.smil/playlist.m3u8
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/qkkHNPR/vosges.png",Vosges TV
@@ -122,11 +127,11 @@ https://dokko1new.koskoros.ru/dokko1/premium529/mono.m3u8|Referer=https://cookie
 
 # Italy
 
-#EXTINF:-1 tvg-id="Rai1.it" group-title="Italia",Rai 1
+#EXTINF:-1 tvg-id="Rai1.it" group-title="Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/01/Rai_1_logo.svg",Rai 1
 https://ddy6new.iosplayer.ru/ddy6/premium850/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="Rai2.it" group-title="Italia",Rai 2
+#EXTINF:-1 tvg-id="Rai2.it" group-title="Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/Rai_2_logo.svg",Rai 2
 https://ddy6new.iosplayer.ru/ddy6/premium851/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="Rai3.it" group-title="Italia",Rai 3
+#EXTINF:-1 tvg-id="Rai3.it" group-title="Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/47/Rai_3_-_Logo_2016.svg",Rai 3
 https://windnew.koskoros.ru/wind/premium852/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="Canale5.it" group-title="Italia",Canale 5
 https://windnew.koskoros.ru/wind/premium853/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
@@ -180,26 +185,26 @@ https://yletvworld.akamaized.net/hls/live/622540/yletv1w/index.m3u8
 
 #EXTINF:-1 group-title="Poland" tvg-logo="https://i.ibb.co/pxSC2HJ/tvpinfo.png",TVP Info
 https://irylek.ct8.pl/stream/tvpinfo?m3u8
-#EXTINF:-1 tvg-id="TVN24.pl" group-title="Poland",TVN24
+#EXTINF:-1 tvg-id="TVN24.pl" group-title="Poland" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6e/Tvn24_Logo.svg",TVN24
 https://dokko1new.koskoros.ru/dokko1/premium444/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="PolNews24.pl" group-title="Poland",Polsat News 24
+#EXTINF:-1 tvg-id="PolNews24.pl" group-title="Poland"tvg-logo="https://commons.wikimedia.org/wiki/File:Polsat_News_2021_gradient.svg",Polsat News 24
 https://windnew.koskoros.ru/wind/premium443/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 
 # Russia
 
-#EXTINF:-1 group-title="Russia" EXTINF:-1 tvg-id="ChannelOne.ru",Первый канал [Perviy Kanal]
+#EXTINF:-1 group-title="Russia" EXTINF:-1 tvg-id="ChannelOne.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a7/1%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB-5.svg",Первый канал [Perviy Kanal]
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
-#EXTINF:-1 group-title="Russia" tvg-id="Russia1.ru",Россия 1 [Rossiya 1]
+#EXTINF:-1 group-title="Russia" tvg-id="Russia1.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d2/Rossiya-1_Logo.svg",Россия 1 [Rossiya 1]
 http://s18209.cdn.ngenix.net/hls/CH_R04_ROSSIA1/playlist.m3u8
-#EXTINF:-1 group-title="Russia" tvg-id="Russia24.ru",Россия 24 [Rossiya 24]
+#EXTINF:-1 group-title="Russia" tvg-id="Russia24.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/66/Rossiya-24_Logo.svgg",Россия 24 [Rossiya 24]
 http://s18209.cdn.ngenix.net/hls/CH_R01_ROSSIA24/playlist.m3u8
-#EXTINF:-1 group-title="Russia" tvg-id="NTV.ru",НТВ [NTV]
+#EXTINF:-1 group-title="Russia" tvg-id="NTV.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/NTV_logo_2003.svg",НТВ [NTV]
 http://s18209.cdn.ngenix.net/hls/CH_R03_NTV/playlist.m3u8
-#EXTINF:-1 group-title="Russia" tvg-id="Channel5.ru",5 канал [5 Kanal]
+#EXTINF:-1 group-title="Russia" tvg-id="Channel5.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/42/5-tv.svg",5 канал [5 Kanal]
 http://s18209.cdn.ngenix.net/hls/CH_R02_5TV/playlist.m3u8
-#EXTINF:-1 group-title="Russia" tvg-id="Friday.ru",Пятница [Pyatnitsa]
+#EXTINF:-1 group-title="Russia" tvg-id="Friday.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a8/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg",Пятница [Pyatnitsa]
 http://s18209.cdn.ngenix.net/hls/CH_R01_FRIDAY/playlist.m3u8
-#EXTINF:-1 group-title="Russia" tvg-id="TNT.ru",ТНТ [TNT]
+#EXTINF:-1 group-title="Russia" tvg-id="TNT.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/Logo_tnt.png",ТНТ [TNT]
 http://s18209.cdn.ngenix.net/hls/CH_R01_TNT/playlist.m3u8
 
 # Info
@@ -208,7 +213,7 @@ https://d3696l48vwq25d.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 
 #EXTINF:-1 group-title="Info" tvg-id="NHKWorldJapan.jp" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/NHK-World.png",NHK World Japan
 #KODIPROP:inputstream=inputstream.adaptive
-https://cdn.nhkworld.jp/www11/nhkworld-tv/domestic/2003459/live.m3u8
+https://nhkwlive-ojp.nhkworld.jp/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 
 #EXTINF:-1 group-title="Info" tvg-id="EuronewsEN.fr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",Euronews EN
 #KODIPROP:inputstream=inputstream.adaptive
