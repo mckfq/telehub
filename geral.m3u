@@ -127,11 +127,11 @@ https://dokko1new.koskoros.ru/dokko1/premium529/mono.m3u8|Referer=https://cookie
 
 # Italy
 
-#EXTINF:-1 tvg-id="Rai1.it" group-title="Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/01/Rai_1_logo.svg",Rai 1
+#EXTINF:-1 tvg-id="Rai1.it" group-title="Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Rai_1_logo.svg/1024px-Rai_1_logo.svg.png",Rai 1
 https://ddy6new.iosplayer.ru/ddy6/premium850/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="Rai2.it" group-title="Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/Rai_2_logo.svg",Rai 2
+#EXTINF:-1 tvg-id="Rai2.it" group-title="Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Rai_2_logo.svg/1024px-Rai_2_logo.svg.png",Rai 2
 https://ddy6new.iosplayer.ru/ddy6/premium851/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="Rai3.it" group-title="Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/47/Rai_3_-_Logo_2016.svg",Rai 3
+#EXTINF:-1 tvg-id="Rai3.it" group-title="Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Rai_3_logo.svg/1024px-Rai_3_logo.svg.png",Rai 3
 https://windnew.koskoros.ru/wind/premium852/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="Canale5.it" group-title="Italia",Canale 5
 https://windnew.koskoros.ru/wind/premium853/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
@@ -185,24 +185,24 @@ https://yletvworld.akamaized.net/hls/live/622540/yletv1w/index.m3u8
 
 #EXTINF:-1 group-title="Poland" tvg-logo="https://i.ibb.co/pxSC2HJ/tvpinfo.png",TVP Info
 https://irylek.ct8.pl/stream/tvpinfo?m3u8
-#EXTINF:-1 tvg-id="TVN24.pl" group-title="Poland" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6e/Tvn24_Logo.svg",TVN24
+#EXTINF:-1 tvg-id="TVN24.pl" group-title="Poland" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Tvn24_Logo.svg/799px-Tvn24_Logo.svg.png",TVN24
 https://dokko1new.koskoros.ru/dokko1/premium444/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="PolNews24.pl" group-title="Poland"tvg-logo="https://commons.wikimedia.org/wiki/File:Polsat_News_2021_gradient.svg",Polsat News 24
+#EXTINF:-1 tvg-id="PolNews24.pl" group-title="Poland"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Polsat_News_2021_gradient.svg/767px-Polsat_News_2021_gradient.svg.png",Polsat News 24
 https://windnew.koskoros.ru/wind/premium443/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 
 # Russia
 
-#EXTINF:-1 group-title="Russia" EXTINF:-1 tvg-id="ChannelOne.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a7/1%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB-5.svg",Первый канал [Perviy Kanal]
+#EXTINF:-1 group-title="Russia" EXTINF:-1 tvg-id="ChannelOne.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/00/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB.png",Первый канал [Perviy Kanal]
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
-#EXTINF:-1 group-title="Russia" tvg-id="Russia1.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d2/Rossiya-1_Logo.svg",Россия 1 [Rossiya 1]
+#EXTINF:-1 group-title="Russia" tvg-id="Russia1.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Russia-1.svg/1024px-Russia-1.svg.png",Россия 1 [Rossiya 1]
 http://s18209.cdn.ngenix.net/hls/CH_R04_ROSSIA1/playlist.m3u8
-#EXTINF:-1 group-title="Russia" tvg-id="Russia24.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/66/Rossiya-24_Logo.svgg",Россия 24 [Rossiya 24]
+#EXTINF:-1 group-title="Russia" tvg-id="Russia24.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/1024px-Rossiya-24_Logo.svg.png",Россия 24 [Rossiya 24]
 http://s18209.cdn.ngenix.net/hls/CH_R01_ROSSIA24/playlist.m3u8
-#EXTINF:-1 group-title="Russia" tvg-id="NTV.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/NTV_logo_2003.svg",НТВ [NTV]
+#EXTINF:-1 group-title="Russia" tvg-id="NTV.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/NTV_logo_2003.svg/1024px-NTV_logo_2003.svg.png",НТВ [NTV]
 http://s18209.cdn.ngenix.net/hls/CH_R03_NTV/playlist.m3u8
-#EXTINF:-1 group-title="Russia" tvg-id="Channel5.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/42/5-tv.svg",5 канал [5 Kanal]
+#EXTINF:-1 group-title="Russia" tvg-id="Channel5.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/5-tv_logo_%282023%29.svg/1024px-5-tv_logo_%282023%29.svg.png",5 канал [5 Kanal]
 http://s18209.cdn.ngenix.net/hls/CH_R02_5TV/playlist.m3u8
-#EXTINF:-1 group-title="Russia" tvg-id="Friday.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a8/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg",Пятница [Pyatnitsa]
+#EXTINF:-1 group-title="Russia" tvg-id="Friday.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg/1024px-%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg.png",Пятница [Pyatnitsa]
 http://s18209.cdn.ngenix.net/hls/CH_R01_FRIDAY/playlist.m3u8
 #EXTINF:-1 group-title="Russia" tvg-id="TNT.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/Logo_tnt.png",ТНТ [TNT]
 http://s18209.cdn.ngenix.net/hls/CH_R01_TNT/playlist.m3u8
