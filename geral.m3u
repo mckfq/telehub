@@ -184,20 +184,20 @@ https://windnew.koskoros.ru/wind/premium354/mono.m3u8|Referer=https://cookiewebp
 https://zekonew.koskoros.ru/zeko/premium355/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="BBC3.uk" group-title="UK" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/1024px-BBC_Three_2022.svg.png" ,BBC Three
 https://ddy6new.iosplayer.ru/ddy6/premium358/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="ITV2.uk" group-title="UK",ITV2
+#EXTINF:-1 tvg-id="ITV2.uk" group-title="UK" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/ITV2_logo_2022.svg/1024px-ITV2_logo_2022.svg.png" ,ITV2
 https://zekonew.koskoros.ru/zeko/premium351/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BBC4.uk" group-title="UK",BBC Four
+#EXTINF:-1 tvg-id="BBC4.uk" group-title="UK" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/1024px-BBC_Four_logo_2021.svg.png" ,BBC Four
 https://dokko1new.koskoros.ru/dokko1/premium359/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="ITV3.uk" group-title="UK",ITV3
+#EXTINF:-1 tvg-id="ITV3.uk" group-title="UK" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/ITV3_logo_2022.svg/1024px-ITV3_logo_2022.svg.png" ,ITV3
 https://zekonew.koskoros.ru/zeko/premium352/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="ITV4.uk" group-title="UK",ITV4
+#EXTINF:-1 tvg-id="ITV4.uk" group-title="UK" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/ITV4_logo_%282022%29.svg/1024px-ITV4_logo_%282022%29.svg.png" ,ITV4
 https://ddy6new.iosplayer.ru/ddy6/premium353/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 
 # Ireland
 
-#EXTINF:-1 tvg-id="RTE1.ie" group-title="UK",RTE1
+#EXTINF:-1 tvg-id="RTE1.ie" group-title="UK" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/RT%C3%89_One_2014.svg/1024px-RT%C3%89_One_2014.svg.png" ,RTÉ 1
 https://zekonew.koskoros.ru/zeko/premium364/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="RTE2.ie" group-title="UK",RTE2
+#EXTINF:-1 tvg-id="RTE2.ie" group-title="UK" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/11/RT%C3%892_logo.svg/1024px-RT%C3%892_logo.svg.png" ,RTÉ 2
 https://zekonew.koskoros.ru/zeko/premium365/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 
 # Nordics
@@ -213,7 +213,7 @@ https://yletvworld.akamaized.net/hls/live/622540/yletv1w/index.m3u8
 
 # Poland
 
-#EXTINF:-1 group-title="Poland" tvg-logo="https://i.ibb.co/pxSC2HJ/tvpinfo.png",TVP Info
+#EXTINF:-1 group-title="Poland" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/TVP_Info_%282024%29.svg/1024px-TVP_Info_%282024%29.svg.png",TVP Info
 https://irylek.ct8.pl/stream/tvpinfo?m3u8
 #EXTINF:-1 tvg-id="TVN24.pl" group-title="Poland" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Tvn24_Logo.svg/799px-Tvn24_Logo.svg.png",TVN24
 https://dokko1new.koskoros.ru/dokko1/premium444/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
@@ -238,6 +238,7 @@ http://s18209.cdn.ngenix.net/hls/CH_R01_FRIDAY/playlist.m3u8
 http://s18209.cdn.ngenix.net/hls/CH_R01_TNT/playlist.m3u8
 
 # Info
+
 #EXTINF:-1 group-title="Info" tvg-logo="https://i.ibb.co/XbSHxd5/cnn.png",CNN International
 https://d3696l48vwq25d.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0g2918mubifjw/index.m3u8
 
