@@ -28,5 +28,5 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add geral.m3u
-          git commit -m "Automat" || exit 0
+          git commit -m "Mise à jour automatique des chaînes spécifiques" || exit 0
           git push
