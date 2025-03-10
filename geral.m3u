@@ -194,8 +194,10 @@ https://zekonew.koskoros.ru/zeko/premium352/mono.m3u8|Referer=https://cookiewebp
 https://ddy6new.iosplayer.ru/ddy6/premium353/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 
 # Ireland
-
-
+#EXTINF:-1 tvg-id="RTE1.ie" group-title="UK",RTE1
+https://zekonew.koskoros.ru/zeko/premium364/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="RTE2.ie" group-title="UK",RTE2
+https://zekonew.koskoros.ru/zeko/premium365/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 
 # Nordics
 
@@ -205,7 +207,7 @@ https://drlivedrtvahls.akamaized.net/hls/live/2113613/drlivedrtva/master.m3u8
 https://ddy6new.iosplayer.ru/ddy6/premium817/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="TV3.dk" group-title="Nordics",TV3
 https://ddy6new.iosplayer.ru/ddy6/premium819/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Nordics" tvg-logo="https://i.ibb.co/r29pMj4B/Ylew.png",YLE 
+#EXTINF:-1 tvg-id="yle.fi" group-title="Nordics" tvg-logo="https://i.ibb.co/r29pMj4B/Ylew.png",yle
 https://yletvworld.akamaized.net/hls/live/622540/yletv1w/index.m3u8
 
 # Poland
