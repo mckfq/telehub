@@ -21,7 +21,7 @@ jobs:
         run: pip install requests
 
       - name: Exécuter le script de mise à jour
-        run: python update_playlist.py
+        run: python update_geral.py
 
       - name: Commit et push si modification
         run: |
