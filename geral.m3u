@@ -10,7 +10,7 @@ https://ddy6new.iosplayer.ru/ddy6/premium719/mono.m3u8|Referer=https://cookieweb
 https://ddy6new.iosplayer.ru/ddy6/premium720/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="SIC.pt" group-title="Portugal" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
 https://ddy6new.iosplayer.ru/ddy6/premium722/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Portugal" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI HD
+#EXTINF:-1 group-title="Portugal" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
 https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8xMC8yMDI1IDY6MTY6NDIgUE0maGFzaF92YWx1ZT14VVdvelRYajRZYTU0dUMxTldtYTJRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MWJlZTg3ZjgtZDQwOC00YmIxLWIxNmUtZmFhN2RhZDZiMDEy/
 #EXTINF:-1 tvg-id="RTP3.pt" group-title="Portugal",RTP3
 https://ddy6new.iosplayer.ru/ddy6/premium721/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
@@ -195,9 +195,9 @@ https://ddy6new.iosplayer.ru/ddy6/premium353/mono.m3u8|Referer=https://cookieweb
 
 # Ireland
 
-#EXTINF:-1 tvg-id="RTE1.ie" group-title="UK" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/RT%C3%89_One_2014.svg/1024px-RT%C3%89_One_2014.svg.png" ,RTÉ 1
+#EXTINF:-1 tvg-id="RTE1.ie" group-title="Ireland" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/RT%C3%89_One_2014.svg/1024px-RT%C3%89_One_2014.svg.png" ,RTÉ 1
 https://zekonew.koskoros.ru/zeko/premium364/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="RTE2.ie" group-title="UK" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/11/RT%C3%892_logo.svg/1024px-RT%C3%892_logo.svg.png" ,RTÉ 2
+#EXTINF:-1 tvg-id="RTE2.ie" group-title="Ireland" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/11/RT%C3%892_logo.svg/1024px-RT%C3%892_logo.svg.png" ,RTÉ 2
 https://zekonew.koskoros.ru/zeko/premium365/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 
 # Nordics
