@@ -2,27 +2,28 @@ name: Update streams
 
 on:
   schedule:
-    - cron: '0 */8 * * *'  # Update every 8h
-  workflow_dispatch:  # Manual execute
-  
+    - cron: '0 */8 * * *'  # Mise à jour toutes les 8 heures
+  workflow_dispatch:  # Exécution manuelle
+
 jobs:
   Update-streams:
     runs-on: ubuntu-latest
     steps:
     
-      - name: checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: update streams
-        run: sh automat.sh
+      - name: Update streams
+        run: sh automat.sh  # Exécution du script 'automat.sh' pour mettre à jour les flux
 
-      - name: setup git config
+      - name: Set up git config
         run: |
           git config user.name "mckfq"
-          git config user.email "<>"
+          git config user.email "mckfq@users.noreply.github.com"  # Remplace par ton adresse e-mail GitHub
 
-      - name: commit
+      - name: Commit and push changes
         run: |
           git pull
-          git commit -m "Update streams"
-          git push origin main
+          git add .  # Ajoute toutes les modifications
+          git diff --cached --exit-code || (git commit -m "Update streams" && git push origin main)  # Commit et push seulement s'il y a des changements
+
