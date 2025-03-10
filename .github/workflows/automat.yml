@@ -1,9 +1,10 @@
 name: Update streams
-on:
-  workflow_dispatch
-  schedule:
-    - cron: "0 */8 * * *"
 
+on:
+  schedule:
+    - cron: '0 */8 * * *'  # Update every 8h
+  workflow_dispatch:  # Manual execute
+  
 jobs:
   Update-streams:
     runs-on: ubuntu-latest
