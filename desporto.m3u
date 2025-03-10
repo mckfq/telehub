@@ -171,6 +171,9 @@ https://dokko1new.koskoros.ru/dokko1/premium526/mono.m3u8|Referer=https://cookie
 #EXTINF:-1 tvg-id="MoviLDC.es" group-title="Spain" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Deportes_por_Movistar_Plus%2B_2023_Logo.svg/1024px-Deportes_por_Movistar_Plus%2B_2023_Logo.svg.png",Movistar Deportes 4
 https://dokko1new.koskoros.ru/dokko1/premium527/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 
+#EXTINF:-1 tvg-id="OneToro.es" group-title="Spain" tvg-logo="https://uploads-eu-west-1.insided.com/nos-pt/attachment/264e94ca-5688-4a2c-a3d2-d01af07a1645.png",OneToro
+https://ddy6new.iosplayer.ru/ddy6/premium558/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+
 # Germany
 
 #EXTINF:-1 tvg-id="SkyBD1.de" group-title="Germany" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sky_Sport_-_Logo_2020.svg/1024px-Sky_Sport_-_Logo_2020.svg.png",Sky Sports Bundesliga 1
