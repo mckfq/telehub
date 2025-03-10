@@ -1,32 +1,32 @@
-name: Mise à jour automatique des chaînes M3U
+name: Automat
 
 on:
     schedule:
-    - cron: '0 10,20 * * *'# Exécute toutes les 12 heures (10h and 20h UTC)
-  workflow_dispatch:  # Permet de le lancer manuellement
+    - cron: '0 10,20 * * *'# Update (10h and 20h UTC)
+  workflow_dispatch:  # Manual lauch
 
 jobs:
   update_playlist:
     runs-on: ubuntu-latest
     steps:
-      - name: Cloner le repository
+      - name: Clone repository
         uses: actions/checkout@v3
 
-      - name: Installer Python
+      - name: Install Python
         uses: actions/setup-python@v3
         with:
           python-version: '3.x'
 
-      - name: Installer les dépendances
+      - name: Install dependancies
         run: pip install requests
 
-      - name: Exécuter le script de mise à jour
+      - name: Executer automascript
         run: python update_geral.py
 
-      - name: Commit et push si modification
+      - name: Commit and push if change
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add geral.m3u
-          git commit -m "Mise à jour automatique des chaînes spécifiques" || exit 0
+          git commit -m "Automat" || exit 0
           git push
