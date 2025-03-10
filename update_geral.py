@@ -51,7 +51,7 @@ print("Mise à jour terminée avec succès !")
 # Commit et push automatique
 os.system("git config --global user.name 'GitHub Actions'")
 os.system("git config --global user.email 'actions@github.com'")
-os.system("git add ma_playlist.m3u")
+os.system("git add geral.m3u")
 os.system("git commit -m 'Mise à jour automatique des chaînes spécifiques' || exit 0")
 os.system("git push")
 
