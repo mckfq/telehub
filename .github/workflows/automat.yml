@@ -24,6 +24,6 @@ jobs:
       - name: commit
         run: |
           git pull
-          cd geral && git add *.m3u
+          cd visual && git add *.m3u
           git commit -m "Update streams"
           git push origin main
