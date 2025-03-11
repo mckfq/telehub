@@ -10,8 +10,8 @@ sed -i "/live_cnn/ c https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?
 
 M6_PAGE_URL="https://www.stream4free.tv/m6-live-streaming"
 
-# Récupérer le code source de la page
-PAGE_SOURCE=$(wget -qO- "$M6_PAGE_URL")
+# Récupérer le code source avec curl
+PAGE_SOURCE=$(curl -s "$M6_PAGE_URL")
 
 # Extraire l'URL complète contenant le token
 NEW_M6_URL=$(echo "$PAGE_SOURCE" | grep -oP 'https://[^/]+/[^/]+/m6france\.m3u8' | head -n 1)
@@ -22,7 +22,7 @@ if [[ -z "$NEW_M6_URL" ]]; then
     exit 1
 fi
 
-# Remplacer uniquement la ligne contenant m6france.m3u8 dans geral.m3u
+# Mettre à jour uniquement l'URL du flux M6 dans geral.m3u
 sed -i "/m6france.m3u8/c\\$NEW_M6_URL" "$M3U_FILE"
 
 echo "Mise à jour du lien M6 terminée."
