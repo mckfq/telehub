@@ -12,26 +12,40 @@ sed -i "/live_cnn/ c https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?
 PAGE_CONTENT=$(curl -s "https://www.stream4free.tv/m6-live-streaming")
 # Extraire l'URL dynamique de la page
 DYNAMIC_URL=$(echo "$PAGE_CONTENT" | grep -oP 'https://sv1.data-stream.top/[^"]+/hls/m6france.m3u8')
+# Vérifier si l'URL a bien été extraite
+if [ -z "$DYNAMIC_URL" ]; then
+  echo "Erreur : L'URL dynamique n'a pas pu être extraite."
+  exit 1
+fi
 # Remplacer uniquement la ligne qui contient "w9france" dans le fichier M3U
-sed -i "/m6france/c $DYNAMIC_URL" geral.m3u
+sed -i "/m6france/c\\ $DYNAMIC_URL" geral.m3u
 
 # FR W9 Récupérer le contenu de la page
 PAGE_CONTENT=$(curl -s "https://www.stream4free.tv/mw9-france)
 # Extraire l'URL dynamique de la page
 DYNAMIC_URL=$(echo "$PAGE_CONTENT" | grep -oP 'https://sv7.data-stream.top/[^"]+/hls/w9france.m3u8')
-# Remplacer uniquement la ligne qui contient "w9france" dans le fichier M3U
-sed -i "/w6france/c $DYNAMIC_URL" geral.m3u
+# Vérifier si l'URL a bien été extraite
+if [ -z "$DYNAMIC_URL" ]; then
+  echo "Erreur : L'URL dynamique n'a pas pu être extraite."
+  exit 1
+fi# Remplacer uniquement la ligne qui contient "w9france" dans le fichier M3U
+sed -i "/w6france/c\\ $DYNAMIC_URL" geral.m3u
 
 # FR 6Ter Récupérer le contenu de la page
 PAGE_CONTENT=$(curl -s "https://www.stream4free.tv/6ter-france")
 # Extraire l'URL dynamique de la page
 DYNAMIC_URL=$(echo "$PAGE_CONTENT" | grep -oP 'https://sv1.data-stream.top/[^"]+/hls/6ter.m3u8')
+# Vérifier si l'URL a bien été extraite
+if [ -z "$DYNAMIC_URL" ]; then
+  echo "Erreur : L'URL dynamique n'a pas pu être extraite."
+  exit 1
+fi
 # Remplacer uniquement la ligne qui contient "w9france" dans le fichier M3U
-sed -i "/6ter.m3u/c $DYNAMIC_URL" geral.m3u
+sed -i "/6ter.m3u/c\\ $DYNAMIC_URL" geral.m3u
 
 # FR TF1SF Récupérer le contenu de la page
 PAGE_CONTENT=$(curl -s "https://www.stream4free.tv/tf1-series-films")
 # Extraire l'URL dynamique de la page
 DYNAMIC_URL=$(echo "$PAGE_CONTENT" | grep -oP 'https://sv1.data-stream.top/[^"]+/hls/seriefilmes.m3u8')
 # Remplacer uniquement la ligne qui contient "w9france" dans le fichier M3U
-sed -i "/seriefilmes/c $DYNAMIC_URL" geral.m3u
+sed -i "/seriefilmes/c\\ $DYNAMIC_URL" geral.m3u
