@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: update streams
-        run: bash automat.sh
+        run: sh automat.sh
 
       - name: setup git config
         run: |
