@@ -30,7 +30,7 @@ get_m3u_url() {
 M6_URL=$(get_m3u_url "$SOURCE_M6")
 if [[ -n "$M6_URL" ]]; then
   echo "Mise à jour du flux M6 : $M6_URL"
-  sed -i "/live_m6/ c # M6 - $M6_URL" "$M3U_FILE"
+  sed -i "/M6/ c # M6 - $M6_URL" "$M3U_FILE"
 else
   echo "Erreur : Impossible de récupérer l'URL M3U de M6"
 fi
@@ -39,7 +39,7 @@ fi
 W9_URL=$(get_m3u_url "$SOURCE_W9")
 if [[ -n "$W9_URL" ]]; then
   echo "Mise à jour du flux W9 : $W9_URL"
-  sed -i "/live_w9/ c # W9 - $W9_URL" "$M3U_FILE"
+  sed -i "/W9/ c # W9 - $W9_URL" "$M3U_FILE"
 else
   echo "Erreur : Impossible de récupérer l'URL M3U de W9"
 fi
@@ -48,7 +48,7 @@ fi
 TF1_SERIES_URL=$(get_m3u_url "$SOURCE_TF1_SERIES")
 if [[ -n "$TF1_SERIES_URL" ]]; then
   echo "Mise à jour du flux TF1 Séries Films : $TF1_SERIES_URL"
-  sed -i "/live_tf1_series/ c # TF1 Séries Films - $TF1_SERIES_URL" "$M3U_FILE"
+  sed -i "/TF1 Séries Films/ c # TF1 Séries Films - $TF1_SERIES_URL" "$M3U_FILE"
 else
   echo "Erreur : Impossible de récupérer l'URL M3U de TF1 Series Films"
 fi
@@ -57,7 +57,7 @@ fi
 TER_URL=$(get_m3u_url "$SOURCE_6TER")
 if [[ -n "$TER_URL" ]]; then
   echo "Mise à jour du flux 6Ter : $TER_URL"
-  sed -i "/live_6ter/ c # 6Ter - $TER_URL" "$M3U_FILE"
+  sed -i "/6Ter/ c # 6Ter - $TER_URL" "$M3U_FILE"
 else
   echo "Erreur : Impossible de récupérer l'URL M3U de 6ter"
 fi
