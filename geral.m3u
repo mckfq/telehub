@@ -46,7 +46,7 @@ https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
 #EXTINF:-1 group-title="France" tvg-id="AssembleeNationale.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/f/fd/Logo_LCP-AN_%282019%29.svg/1024px-Logo_LCP-AN_%282019%29.svg.png",Assemblée Nationale
 http://anorigin.vodalys.com/live/live36/index36_12856975.m3u8?DVR=
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/LNRd253/w9.png",W9
-http://gratuittv.free.fr/Files/w9/live/playlist.m3u8
+https://sv7.data-stream.top/561e38d8f8cb7b73e9654a83f8e9069aba10a4034036b120899377a2baec54af/hls/w9france.m3u8
 #EXTINF:-1 group-title="France" tvg-id="TMC.fr",TMC
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tmc.m3u8
 #EXTINF:-1 group-title="France" tvg-id="TFX.fr",TFX
