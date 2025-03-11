@@ -14,7 +14,7 @@ M6_PAGE_URL="https://www.stream4free.tv/m6-live-streaming"
 PAGE_SOURCE=$(curl -s "$M6_PAGE_URL")
 
 # Extraire l'URL complète contenant le token
-NEW_M6_URL=$(echo "$PAGE_SOURCE" | grep -oP 'https://[^/]+/[^/]+/m6france\.m3u8' | head -n 1)
+NEW_M6_URL=$(echo "$PAGE_SOURCE" | grep -oP 'https://https://sv1.data-stream.top/[^/]+/[^/]+/hls/m6france.m3u8' | head -n 1)
 
 # Vérifier si l'URL a été trouvée
 if [[ -z "$NEW_M6_URL" ]]; then
