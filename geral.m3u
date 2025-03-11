@@ -157,6 +157,8 @@ https://ddy6new.iosplayer.ru/ddy6/premium729/mono.m3u8|Referer=https://cookieweb
 https://ddy6new.iosplayer.ru/ddy6/premium730/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="Kabel1.de" group-title="Germany" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Kabel_eins_Logo_2015.svg/1024px-Kabel_eins_Logo_2015.svg.png" ,Kabel Eins
 https://ddy6new.iosplayer.ru/ddy6/premium731/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="RTLZwei.de" group-title="Germany" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/993px-RTLZWEI_Logo_2019.svg.png" ,RTL Zwei
+http://178.219.128.68:64888/RTL2
 #EXTINF:-1 tvg-id="3sat.de" group-title="Germany" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/3sat-Logo.svg/1024px-3sat-Logo.svg.png" ,3sat
 https://ddy6new.iosplayer.ru/ddy6/premium726/mono.m3u8
 #EXTINF:-1 tvg-id="SuperRTL.de" group-title="Germany" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/RTL_Super_Logo_2023.svg/1024px-RTL_Super_Logo_2023.svg.png" ,Super RTL
@@ -222,6 +224,14 @@ https://irylek.ct8.pl/stream/tvpinfo?m3u8
 https://dokko1new.koskoros.ru/dokko1/premium444/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="PolNews24.pl" group-title="Poland"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Polsat_News_2021_gradient.svg/767px-Polsat_News_2021_gradient.svg.png",Polsat News 24
 https://windnew.koskoros.ru/wind/premium443/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+
+# Ukraine
+#EXTINF:-1 tvg-id="Channel24.ua" group-title="Ukraine" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/24_Kanal_logo.svg/1024px-24_Kanal_logo.svg.png" ,24 Kanal
+https://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="IUAtv.ua" group-title="Ukraine" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_I-UA.tv.svg/1242px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_I-UA.tv.svg.png" ,I-UA.tv (1080p)
+https://kie2.cdn.i-ua.tv/hlsme/iuatv.m3u8
+#EXTINF:-1 tvg-id="FREEDOM.ua" group-title="Ukraine" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGaVHTIf-S29qBVS7a6OMRvIDm1pR1anDqDw&s.png" ,Freedom - UATV
+https://freedom.cdn-01.cosmonova.net.ua/mobile-app/main/freedom/master.m3u8
 
 # Russia
 
