@@ -2,6 +2,57 @@
 
 For personal use ONLY - Sharing is strictly forbidden
 
+
+
+#EXTINF:0 group-title="(FR) France",ARTE | HD (FR)
+http://vip-src.com:8080/live/cem34/cem34/7326.ts
+#EXTINF:0 group-title="(FR) France",ARTE | HD (FR)
+http://main.cctvlive.org:8000/live/Amos/Amos/3079.ts
+#EXTINF:0 group-title="(FR) France",ARTE | HD (FR)
+http://vip-src.com:8080/live/sedat29/sedat29/7326.ts
+#EXTINF:0 group-title="(FR) France",ARTE | HD (FR)
+http://p2.cunrt.com:8080/live/11052017/11052017/7492.ts
+#EXTINF:0 group-title="(FR) France",ARTE | HD (FR)
+http://clientportal.link:8080/live/abc123/321cba/3726.ts
+
+#EXTINF:0 group-title="(FR) France",PARIS PREMIERE | HD (FR)
+http://kingtveu.com:25461/live/mani/mani/21500.ts
+#EXTINF:0 group-title="(FR) France",PARIS PREMIERE | HD (FR)
+http://kingtveu.com:25461/live/next/next/21500.ts
+#EXTINF:0 group-title="(FR) France",PARIS PREMIERE | HD (FR)
+http://kingtveu.com:25461/live/rola/rola/21500.ts
+#EXTINF:0 group-title="(FR) France",PARIS PREMIERE | HD (FR)
+http://main.cctvlive.org:8000/live/Amos/Amos/5245.ts
+
+#EXTINF:0 group-title="(FR) France",M6 | HD (FR)
+http://vip-src.com:8080/live/cem34/cem34/7348.ts
+#EXTINF:0 group-title="(FR) France",M6 | HD (FR)
+http://kingtveu.com:25461/live/mani/mani/21481.ts
+#EXTINF:0 group-title="(FR) France",M6 | HD (FR)
+http://kingtveu.com:25461/live/next/next/21481.ts
+#EXTINF:0 group-title="(FR) France",M6 | HD (FR)
+http://kingtveu.com:25461/live/rola/rola/21481.ts
+#EXTINF:0 group-title="(FR) France",M6 | HD (FR)
+http://vip-src.com:8080/live/sedat29/sedat29/7348.ts
+#EXTINF:0 group-title="(FR) France",M6 | HD (FR)
+http://p2.cunrt.com:8080/live/11052017/11052017/7514.ts
+#EXTINF:0 group-title="(FR) France",M6 | HD (FR)
+http://clientportal.link:8080/live/abc123/321cba/3758.ts
+#EXTINF:0 group-title="(FR) France",M6 | HD (FR)
+http://portal.geniptv.com:8080/live/live:kral__smart/UYjqUviEyW/432.ts
+
+#EXTINF:0 group-title="(FR) France",W9 | HD (FR)
+http://kingtveu.com:25461/live/mani/mani/21524.ts
+#EXTINF:0 group-title="(FR) France",W9 | HD (FR)
+http://kingtveu.com:25461/live/next/next/21524.ts
+#EXTINF:0 group-title="(FR) France",W9 | HD (FR)
+http://kingtveu.com:25461/live/rola/rola/21524.ts
+#EXTINF:0 group-title="(FR) France",W9 | HD (FR)
+http://portal.geniptv.com:8080/live/live:kral__smart/UYjqUviEyW/430.ts
+#EXTINF:0 group-title="(FR) France",W9 | HD (FR)
+http://geantiptv.ddns.net:61555/live/geantsat.com-5797/13-03GrDddddddddddddy2018/2406.ts
+
+
 # Portugal
 
 #EXTINF:-1 tvg-id="RTP1.pt" group-title="Portugal" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP1
