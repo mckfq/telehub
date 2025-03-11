@@ -9,30 +9,55 @@ sed -i "/live_tvi\/live_tvi/ c https://video-auth6.iol.pt/live_tvi/live_tvi/play
 sed -i "/live_cnn/ c https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=$(wget https://services.iol.pt/matrix?userId= -o /dev/null -O -)/" geral.m3u
 
 # FR
+# Sources des flux M3U
 SOURCE_M6="https://www.stream4free.tv/m6-live-streaming"
 SOURCE_W9="https://www.stream4free.tv/w9-france"
-SOURCE_TF1_SERIES="https://www.stream4free.tv/tf1-series-films"
+SOURCE_TF1_SERIES="https://www.stream4free.tv/tf1-series-films
 SOURCE_6TER="https://www.stream4free.tv/6ter-france"
 
-# Extract m3u
-extract_m3u8() {
-    curl -s "$1" | grep -oP 'https://.*?\.m3u8' | head -1
+# Fonction pour récupérer l'URL M3U pour chaque chaîne
+get_m3u_url() {
+  local source=$1
+  # Utilise wget pour récupérer le code source de la page
+  PAGE=$(wget -qO- "$source")
+
+  # Extraction de l'URL M3U à partir de la page
+  # Cette partie dépend de la structure de la page, il faut ajuster les expressions régulières en fonction
+  echo "$PAGE" | grep -oP '(https://[^"]+\.m3u8)' | head -n 1
 }
 
-# New links
-NEW_M6=$(extract_m3u8 "$SOURCE_M6")
-NEW_W9=$(extract_m3u8 "$SOURCE_W9")
-NEW_TF1_SERIES=$(extract_m3u8 "$SOURCE_TF1_SERIES")
-NEW_6TER=$(extract_m3u8 "$SOURCE_6TER")
-
-# Check if no void
-if [[ -z "$NEW_M6" || -z "$NEW_W9" || -z "$NEW_TF1_SERIES" || -z "$NEW_6TER" ]]; then
-    echo "Erreur : Impossible d'extraire un ou plusieurs flux M3U8"
-    exit 1
+# Mise à jour du flux M6
+M6_URL=$(get_m3u_url "$SOURCE_M6")
+if [[ -n "$M6_URL" ]]; then
+  echo "Mise à jour du flux M6 : $M6_URL"
+  sed -i "/live_m6/ c # M6 - $M6_URL" "$M3U_FILE"
+else
+  echo "Erreur : Impossible de récupérer l'URL M3U de M6"
 fi
 
-# Update
-sed -i "/M6/{n;s|https.*m3u8|$NEW_M6|}" "$M3U_FILE"
-sed -i "/W9/{n;s|https.*m3u8|$NEW_W9|}" "$M3U_FILE"
-sed -i "/TF1 Séries Films/{n;s|https.*m3u8|$NEW_TF1_SERIES|}" "$M3U_FILE"
-sed -i "/6ter/{n;s|https.*m3u8|$NEW_6TER|}" "$M3U_FILE"
+# Mise à jour du flux W9
+W9_URL=$(get_m3u_url "$SOURCE_W9")
+if [[ -n "$W9_URL" ]]; then
+  echo "Mise à jour du flux W9 : $W9_URL"
+  sed -i "/live_w9/ c # W9 - $W9_URL" "$M3U_FILE"
+else
+  echo "Erreur : Impossible de récupérer l'URL M3U de W9"
+fi
+
+# Mise à jour du flux TF1 Series Films
+TF1_SERIES_URL=$(get_m3u_url "$SOURCE_TF1_SERIES")
+if [[ -n "$TF1_SERIES_URL" ]]; then
+  echo "Mise à jour du flux TF1 Séries Films : $TF1_SERIES_URL"
+  sed -i "/live_tf1_series/ c # TF1 Séries Films - $TF1_SERIES_URL" "$M3U_FILE"
+else
+  echo "Erreur : Impossible de récupérer l'URL M3U de TF1 Series Films"
+fi
+
+# Mise à jour du flux 6ter
+TER_URL=$(get_m3u_url "$SOURCE_6TER")
+if [[ -n "$TER_URL" ]]; then
+  echo "Mise à jour du flux 6Ter : $TER_URL"
+  sed -i "/live_6ter/ c # 6Ter - $TER_URL" "$M3U_FILE"
+else
+  echo "Erreur : Impossible de récupérer l'URL M3U de 6ter"
+fi
