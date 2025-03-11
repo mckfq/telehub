@@ -29,7 +29,7 @@ https://ddy6new.iosplayer.ru/ddy6/premium717/mono.m3u8|Referer=https://cookieweb
 
 # France
 
-#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/BBpR1Wx/tf1.png",TF1
+#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/BBpR1Wx/tf1.png" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Logo_TF1_2013.svg/1024px-Logo_TF1_2013.svg.png" ,TF1
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tf1.m3u8
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/GxWtcTm/fr2bl.png" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/France_2_-_logo_2018.svg/1024px-France_2_-_logo_2018.svg.png",France 2 🅶
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/fr2.m3u
@@ -39,21 +39,21 @@ https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/fr4.m3u8
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/N9d4yXt/fr5bl.png" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/France_5_-_logo_2018.svg/1024px-France_5_-_logo_2018.svg.png",France 5 🅶
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/fr5.m3u8
-#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/wgJTdGY/m6.png",M6
+#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/wgJTdGY/m6.png" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_(2020%2C_fond_clair).svg/1024px-Logo_M6_(2020%2C_fond_clair).svg.png" ,M6
 https://sv1.data-stream.top/561e38d8f8cb7b73e9654a83f8e9069aba10a4034036b120899377a2baec54af/hls/m6france.m3u8
-#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/BPpZPBn/arte.png",Arte 🅶
+#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/BPpZPBn/arte.png",arte 🅶
 https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
 #EXTINF:-1 group-title="France" tvg-id="AssembleeNationale.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/f/fd/Logo_LCP-AN_%282019%29.svg/1024px-Logo_LCP-AN_%282019%29.svg.png",Assemblée Nationale
-http://anorigin.vodalys.com/live/live36/index36_12856975.m3u8?DVR=
-#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/LNRd253/w9.png",W9
+https://lcp.fr/le-live-lcp-tnt-5433
+#EXTINF:-1 group-title="France" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/W9-Logo.svg/1024px-W9-Logo.svg.png",W9
 https://sv7.data-stream.top/561e38d8f8cb7b73e9654a83f8e9069aba10a4034036b120899377a2baec54af/hls/w9france.m3u8
-#EXTINF:-1 group-title="France" tvg-id="TMC.fr",TMC
+#EXTINF:-1 group-title="France" tvg-id="TMC.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/1024px-TMC_logo.svg.png" ,TMC
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tmc.m3u8
-#EXTINF:-1 group-title="France" tvg-id="TFX.fr",TFX
+#EXTINF:-1 group-title="France" tvg-id="TFX.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/TFX_logo.svg/1024px-TFX_logo.svg.png" ,TFX
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tfx.m3u8
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/LQXjFc3/gulli.png",Gulli
 https://origin-caf900c010ea8046.live.6cloud.fr/out/v1/c65696b42ca34e97a9b5f54758d6dd50/cmaf/hlsfmp4_short_q2hyb21h_gulli_sd_index.m3u8
-#EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/kckRLh5/bfm.png",BFM TV
+#EXTINF:-1 group-title="France" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Logo_BFMTV_2019.svg/1024px-Logo_BFMTV_2019.svg.png",BFM TV
 https://d2me2cx8crwpp6.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-456wmaba0e7dw/index.m3u8
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/qY6w8ds/cnews.png",CNews
 https://hls-m015-live-aka-canalplus.akamaized.net/live/disk/cnews-clair-hd/hls-v3-hd-clair/cnews-clair-hd.m3u8
@@ -63,12 +63,12 @@ https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/btv/py/
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/frin.m3u8
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/Sm9PtLR/cstar.png",CStar
 https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/canalplus/cstar-dm.m3u8
-#EXTINF:-1 group-title="France" tvg-id="TF1SeriesFilms.fr",TF1 Séries Films
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tf1sf.m3u8
+#EXTINF:-1 group-title="France" tvg-id="TF1SeriesFilms.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/4/4b/TF1_S%C3%A9ries_Films_logo_2020.svg/1024px-TF1_S%C3%A9ries_Films_logo_2020.svg.png" ,TF1 Séries Films
+https://sv1.data-stream.top/561e38d8f8cb7b73e9654a83f8e9069aba10a4034036b120899377a2baec54af/hls/seriefilmes.m3u8
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/KXhYwm0/lequipe.png",L'Équipe TV
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/dmotion/py/eqpe/ekip.m3u8
 #EXTINF:-1 group-title="France" tvg-id="6ter.fr",6ter
-ttps://sv1.data-stream.top/561e38d8f8cb7b73e9654a83f8e9069aba10a4034036b120899377a2baec54af/hls/6ter.m3u8
+https://sv1.data-stream.top/561e38d8f8cb7b73e9654a83f8e9069aba10a4034036b120899377a2baec54af/hls/6ter.m3u8
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/fdYg3Lz/rmcstory.png",RMC Story
 https://d36bxc1bknkxrk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3ewcp19zjaxpt/index.m3u8
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/VS4xR2g/rmcdecou.png",RMC Découverte
@@ -76,7 +76,7 @@ https://d2mt8for1pddy4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/R3KG4L9/cherie25.png",Chérie 25
 https://cherie25.nrjaudio.fm/hls/live/2038375/c25/master.m3u8
 #EXTINF:-1 group-title="France" tvg-name="Paris Première" tvg-id="ParisPremiere.fr" tvg-logo="https://github.com/inspirationlinks/m3u/raw/live/LogosTv/ParisPremi%C3%A8re.webp" ,Paris Première
- http://gratuittv.free.fr/Files/parispremier/live/playlist.m3u8
+http://gratuittv.free.fr/Files/parispremier/live/playlist.m3u8
 
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/ftYS2bk/CANAL-logo.png",Canal+
 https://windnew.koskoros.ru/wind/premium121/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
