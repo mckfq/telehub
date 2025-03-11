@@ -12,9 +12,9 @@ sed -i "/live_cnn/ c https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?
 
 # Sources des flux M3U
 SOURCE_M6="https://www.stream4free.tv/m6-live-streaming"
-SOURCE_W9="https://www.stream4free.tv/w9-live-streaming"
-SOURCE_TF1_SERIES="https://www.stream4free.tv/tf1-series-films-live-streaming"
-SOURCE_6TER="https://www.stream4free.tv/6ter-live-streaming"
+SOURCE_W9="https://www.stream4free.tv/w9-france"
+SOURCE_TF1_SERIES="https://www.stream4free.tv/tf1-series-films"
+SOURCE_6TER="https://www.stream4free.tv/6ter-france"
 
 # Fonction pour récupérer l'URL M3U pour chaque chaîne
 get_m3u_url() {
