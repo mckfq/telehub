@@ -43,8 +43,8 @@ https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/
 https://sv1.data-stream.top/561e38d8f8cb7b73e9654a83f8e9069aba10a4034036b120899377a2baec54af/hls/m6france.m3u8
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/BPpZPBn/arte.png",arte 🅶
 https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
-#EXTINF:-1 group-title="France" tvg-id="AssembleeNationale.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/f/fd/Logo_LCP-AN_%282019%29.svg/1024px-Logo_LCP-AN_%282019%29.svg.png",Assemblée Nationale
-https://lcp.fr/le-live-lcp-tnt-5433
+#EXTINF:-1 group-title="France" tvg-id="LCP-AN.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/f/fd/Logo_LCP-AN_%282019%29.svg/1024px-Logo_LCP-AN_%282019%29.svg.png",LCP-Public Sénat
+https://sv7.data-stream.top/561e38d8f8cb7b73e9654a83f8e9069aba10a4034036b120899377a2baec54af/hls/lachainep.m3u8
 #EXTINF:-1 group-title="France" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/W9-Logo.svg/1024px-W9-Logo.svg.png",W9
 https://sv7.data-stream.top/561e38d8f8cb7b73e9654a83f8e9069aba10a4034036b120899377a2baec54af/hls/w9france.m3u8
 #EXTINF:-1 group-title="France" tvg-id="TMC.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/1024px-TMC_logo.svg.png" ,TMC
