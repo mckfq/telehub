@@ -1,26 +1,37 @@
 name: Automat
 on:
   schedule:
-    - cron: '0 */8 * * *' 
-  workflow_dispatch:
-  
+    - cron: '0 */8 * * *'  # Exécuter toutes les 8 heures
+  workflow_dispatch:  # Permet de lancer manuellement
+
 jobs:
   Update-streams:
     runs-on: ubuntu-latest
     steps:
     
-      - name: checkout
+      - name: Checkout du repo
         uses: actions/checkout@v4
 
-      - name: update streams
-        run: bash automat.sh
+      - name: Installer Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
 
-      - name: setup git config
+      - name: Installer les dépendances Python
+        run: pip install requests
+
+      - name: Exécuter le script Python pour mettre à jour geral.m3u
+        run: python update_m3u.py  # Exécute mon script Python
+
+      - name: Update streams (ton script)
+        run: bash automat.sh  # Ton script existant
+
+      - name: Setup git config
         run: |
           git config user.name "mckfq"
           git config user.email "<>"
 
-      - name: commit
+      - name: Commit et push
         run: |
           git pull
           git add *.m3u
