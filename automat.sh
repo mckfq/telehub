@@ -17,5 +17,4 @@ if [ -n "$M6_URL" ]; then
     echo "M6 URL mis à jour : $M6_URL"
 else
     echo "Erreur : Impossible de récupérer l'URL M6."
-
-
+fi
