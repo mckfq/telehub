@@ -1,0 +1,27 @@
+name: Automat
+on:
+  schedule:
+    - cron: '0 */8 * * *' 
+  workflow_dispatch:
+  
+jobs:
+  Update-streams:
+    runs-on: ubuntu-latest
+    steps:
+    
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: update streams
+        run: bash automat.sh
+
+      - name: setup git config
+        run: |
+          git config user.name "mckfq"
+          git config user.email "<>"
+
+      - name: commit
+        run: |
+          git pull
+          git add *.m3u
+          git diff --cached --exit-code || (git commit -m "[Auto] Stream update" && git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/mckfq/visual.git main)
