@@ -1,43 +1,43 @@
 name: Automat
 on:
   schedule:
-    - cron: '0 */8 * * *'  # Exécuter toutes les 8 heures
-  workflow_dispatch:  # Permet de lancer manuellement
+    - cron: '0 */8 * * *'  # Every 8h
+  workflow_dispatch:  # Manual lauch
 
 jobs:
   Update-streams:
     runs-on: ubuntu-latest
     steps:
     
-      - name: Checkout du repo
+      - name: Repository checkout
         uses: actions/checkout@v4
 
-      - name: Installer Python
+      - name: Install Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
 
-      - name: Installer les dépendances Python
+      - name: Install Python requests
         run: pip install requests
         
-      - name: Installer Selenium et Chrome
+      - name: Install Selenium and Chrome
         run: |
           pip install selenium webdriver-manager
           sudo apt update
           sudo apt install -y chromium-chromedriver
           
-      - name: Exécuter le script Python pour mettre à jour geral.m3u
-        run: python update.py  # Exécute mon script Python
+      - name: Execute Python and update list
+        run: python update.py  # Executing Python script
 
-      - name: Update streams (ton script)
-        run: bash automat.sh  # Ton script existant
+      - name: Update streams
+        run: bash automat.sh
 
       - name: Setup git config
         run: |
           git config user.name "mckfq"
           git config user.email "<>"
 
-      - name: Commit et push
+      - name: Commit and push
         run: |
           git pull
           git add *.m3u
