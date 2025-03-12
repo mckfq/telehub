@@ -1,7 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 import re
@@ -14,7 +13,7 @@ fichier_m3u = "geral.m3u"
 
 # 🛠️ Configurer Selenium avec Chrome en mode headless
 options = Options()
-options.add_argument("--headless")  # Mode sans affichage graphique
+options.add_argument("--headless")  
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36")
@@ -37,27 +36,24 @@ try:
         for url in urls_m3u8:
             print(f"🔗 {url}")
         
-        # Prendre la première URL trouvée (ou modifier selon ton besoin)
+        # Prendre la première URL trouvée (ou ajuster selon tes besoins)
         nouvelle_url = urls_m3u8[0]
-        
-        # 🔄 Mettre à jour le fichier M3U
-        try:
-            with open(fichier_m3u, "r") as file:
-                lines = file.readlines()
-        except FileNotFoundError:
-            print(f"❌ Erreur : Le fichier {fichier_m3u} n'existe pas !")
-            exit(1)
+
+        # 🔄 Mettre à jour uniquement les lignes des URLs dans geral.m3u
+        with open(fichier_m3u, "r") as file:
+            lines = file.readlines()
 
         with open(fichier_m3u, "w") as file:
             update_next_line = False
             for line in lines:
                 if update_next_line and line.startswith("http"):
-                    file.write(nouvelle_url + "\n")  # Mettre la nouvelle URL
+                    print(f"🔄 Mise à jour de l'URL : {line.strip()} → {nouvelle_url}")
+                    file.write(nouvelle_url + "\n")  # Remplace uniquement l'URL
                     update_next_line = False
                 else:
                     file.write(line)
-                    if 'tvg-id="M6.fr"' in line:  # Modifier pour d'autres chaînes si besoin
-                        update_next_line = True  # La ligne suivante contient l'URL à changer
+                    if 'tvg-id="M6.fr"' in line:  # Modifier si besoin selon geral.m3u
+                        update_next_line = True  # La ligne suivante contient l’URL à changer
 
         print(f"✅ M6 mis à jour avec la nouvelle URL dans {fichier_m3u} !")
     
