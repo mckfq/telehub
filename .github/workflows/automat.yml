@@ -24,4 +24,4 @@ jobs:
         run: |
           git pull
           git add *.m3u
-          git diff --cached --exit-code || (git commit -m "Update streams" && git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/mckfq/visual.git main)
+          git diff --cached --exit-code || (git commit -m "[Auto] Stream update" && git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/mckfq/visual.git main)
