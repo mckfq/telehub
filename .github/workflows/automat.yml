@@ -19,7 +19,13 @@ jobs:
 
       - name: Installer les dépendances Python
         run: pip install requests
-
+        
+      - name: Installer Selenium et Chrome
+        run: |
+          pip install selenium webdriver-manager
+          sudo apt update
+          sudo apt install -y chromium-chromedriver
+          
       - name: Exécuter le script Python pour mettre à jour geral.m3u
         run: python update.py  # Exécute mon script Python
 
