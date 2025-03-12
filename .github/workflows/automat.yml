@@ -21,7 +21,7 @@ jobs:
         run: pip install requests
 
       - name: Exécuter le script Python pour mettre à jour geral.m3u
-        run: python update_m3u.py  # Exécute mon script Python
+        run: python update.py  # Exécute mon script Python
 
       - name: Update streams (ton script)
         run: bash automat.sh  # Ton script existant
