@@ -18,4 +18,4 @@ COOKIE_FILE="cookies.txt"
 # Effectuer la requête HTTP avec curl en enregistrant les cookies dans un fichier
 curl -s -c $COOKIE_FILE $URL -o page.html
 
-sed -i "/m6france.m3u8/ c https://sv1.data-stream.top/$(wget -qO- $COOKIE_FILE $URL | grep -oP 'https://sv1\.data-stream\.top/\K[^/]+(?=/hls/m6france\.m3u8' | head -n 1)/hls/m6france.m3u8/" geral.m3u
+sed -i "/m6france.m3u8/ c https://sv1.data-stream.top/$(wget -qO- $COOKIE_FILE $URL | grep -oP 'https://sv1\.data-stream\.top/\K([^/]+)(?=/hls/m6france\.m3u8)' | head -n 1)/hls/m6france.m3u8/" geral.m3u
