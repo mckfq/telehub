@@ -56,7 +56,7 @@ try:
                     update_next_line = False
                 else:
                     file.write(line)
-                    if 'tvg-name="M6"' in line:  # Modifier pour d'autres chaînes si besoin
+                    if 'tvg-id="M6.fr"' in line:  # Modifier pour d'autres chaînes si besoin
                         update_next_line = True  # La ligne suivante contient l'URL à changer
 
         print(f"✅ M6 mis à jour avec la nouvelle URL dans {fichier_m3u} !")
