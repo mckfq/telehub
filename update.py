@@ -1,4 +1,8 @@
-import requests
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
+import time
 import re
 
 # 🖥 URL du site à analyser
@@ -10,24 +14,29 @@ nom_chaine = "M6"
 # 📄 Fichier M3U à modifier
 fichier_m3u = "geral.m3u"
 
-# 🛑 User-Agent pour éviter les blocages du site
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
-}
+# 🛠️ Configurer Selenium avec Chrome
+options = webdriver.ChromeOptions()
+options.add_argument("--headless")  # Mode sans affichage graphique
+options.add_argument("--no-sandbox")
+options.add_argument("--disable-dev-shm-usage")
 
-# 🔽 Télécharger la page HTML
-response = requests.get(url_page, headers=headers)
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
-if response.status_code == 200:
-    # Diviser le code source en lignes
-    lines = response.text.split("\n")
+try:
+    # 🔽 Charger la page avec Selenium
+    driver.get(url_page)
+    time.sleep(5)  # Attendre le chargement de JavaScript
 
-    # Vérifier que la ligne 766 existe
+    # 📜 Récupérer le code source de la page
+    source_code = driver.page_source
+    lines = source_code.split("\n")
+
+    # 🔍 Vérifier si la ligne 766 existe
     if len(lines) >= 766:
-        ligne_766 = lines[765].strip()  # Ligne 766 (index 765)
+        ligne_766 = lines[765].strip()
         print(f"✅ Ligne 766 trouvée : {ligne_766}")
 
-        # 🔍 Extraire l'URL s'il y en a une
+        # 🔗 Extraire l'URL M3U8
         match = re.search(r"https?://[^\s\"']+", ligne_766)
         if match:
             nouvelle_url = match.group(0)
@@ -57,5 +66,6 @@ if response.status_code == 200:
             print("⚠️ Aucune URL détectée dans la ligne 766.")
     else:
         print("⚠️ La page ne contient pas 766 lignes.")
-else:
-    print("⚠️ Erreur lors du téléchargement de la page.")
+
+finally:
+    driver.quit()  # Fermer Selenium proprement
