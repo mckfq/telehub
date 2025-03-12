@@ -19,7 +19,7 @@ https://ddy6new.iosplayer.ru/ddy6/premium721/mono.m3u8|Referer=https://cookieweb
 #https://sicnot.live.impresa.pt/sicnot.m3u8
 https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index.m3u8
 #EXTINF:-1 group-title="Portugal" tvg-id="CNNPortugal.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
-https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8xMi8yMDI1IDQ6NTg6NTkgUE0maGFzaF92YWx1ZT1SUitMSEZsWFEwTCs5bUNRYUVBNXJ3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MjE0NjgxODgtZjFlYi00ZTgyLWFmMmYtNWQ1YjZmMTJhMTcw/
+https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8xMi8yMDI1IDk6Mzc6MTMgUE0maGFzaF92YWx1ZT0vV2ZmeWJTV3BZdVNjdDQzRURmMVJBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NzM2ODllM2ItZDEwYS00NzA0LWI1NzctY2NjMTdlNGQ0YWJh/
 #EXTINF:-1 group-title="Portugal" tvg-id="EuronewsPortuguese.fr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",Euronews PT
 https://euronews-live-por-pt.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6572/7392d4f0-7e24-4dbe-8482-f165e712eeed/5.m3u8
 #EXTINF:-1 group-title="Portugal" tvg-id="ARTV.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ARTV.png",ARTV
@@ -40,7 +40,7 @@ https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/N9d4yXt/fr5bl.png" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/France_5_-_logo_2018.svg/1024px-France_5_-_logo_2018.svg.png",France 5 🅶
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/fr5.m3u8
 #EXTINF:-1 tvg-id="M6.fr" group-title="France" tvg-logo="https://i.ibb.co/wgJTdGY/m6.png" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_(2020%2C_fond_clair).svg/1024px-Logo_M6_(2020%2C_fond_clair).svg.png" ,M6
-https://sv1.data-stream.top/0a6c2275f6c8550983867ca6084f6e2e8ad7d7647f950ada301878277beebadd/hls/m6france.m3u8
+https://sv1.data-stream.top/5165d445c47e5a42caf2705ef49f3f54bcb4ce08fe72d059b0df6f2cb1781344/hls/m6france.m3u8
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/BPpZPBn/arte.png",arte 🅶
 https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
 #EXTINF:-1 group-title="France" tvg-id="LCP-AN.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/f/fd/Logo_LCP-AN_%282019%29.svg/1024px-Logo_LCP-AN_%282019%29.svg.png",LCP-Public Sénat
