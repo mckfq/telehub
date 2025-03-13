@@ -17,10 +17,14 @@ jobs:
         with:
           python-version: "3.x"
 
+      - name: Nettoyer les anciennes installations
+        run: |
+          pip uninstall -y selenium selenium-wire mitmproxy blinker
+
       - name: Installer les dépendances Python
         run: |
           pip install --upgrade pip
-          pip install --no-cache-dir requests selenium selenium-wire webdriver-manager mitmproxy blinker
+          pip install --no-cache-dir requests selenium selenium-wire==5.1.0 webdriver-manager mitmproxy==10.2.3 blinker
 
       - name: Installer Selenium et Chrome
         run: |
