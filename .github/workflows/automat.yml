@@ -22,7 +22,7 @@ jobs:
         
       - name: Installer Selenium et Chrome
         run: |
-          pip install selenium-wire selenium webdriver-manager blinker
+          pip install selenium-wire selenium webdriver-manager blinker mitmproxy
           sudo apt update
           sudo apt install -y chromium-chromedriver
           
