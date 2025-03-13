@@ -18,11 +18,11 @@ jobs:
           python-version: "3.x"
 
       - name: Installer les dépendances Python
-        run: pip install requests
-        
+        run: |
+          pip install requests selenium selenium-wire webdriver-manager mitmproxy blinker
+
       - name: Installer Selenium et Chrome
         run: |
-          pip install selenium webdriver-manager
           sudo apt update
           sudo apt install -y chromium-chromedriver
           
