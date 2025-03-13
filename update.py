@@ -23,13 +23,13 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 try:
     # 🔽 Charger la page avec Selenium
     driver.get(url_page)
-    time.sleep(10)  # Attendre que le JS charge la page (peut-être ajuster si nécessaire)
+    time.sleep(10)  # Attendre que le JS charge la page (ajuster si besoin)
 
-    # 📜 Récupérer tout le code source de la page
-    page_source = driver.page_source
+    # 📜 Récupérer le HTML brut avec execute_script (view-source)
+    html_source = driver.execute_script("return document.documentElement.outerHTML;")
 
     # 🔍 Trouver toutes les URLs M3U8 dans la page
-    urls_m3u8 = re.findall(r"https?://[^\s\"']+\.m3u8", page_source)
+    urls_m3u8 = re.findall(r"https?://[^\s\"']+\.m3u8", html_source)
 
     if urls_m3u8:
         print(f"✅ {len(urls_m3u8)} URL(s) M3U8 trouvée(s) :")
@@ -59,6 +59,8 @@ try:
     
     else:
         print("⚠️ Aucune URL M3U8 détectée dans la page.")
+        print("🔍 Voici un extrait du HTML récupéré (1000 premiers caractères) :")
+        print(html_source[:1000])  # Afficher un extrait pour vérifier le contenu réel
 
 finally:
     driver.quit()  # Fermer Selenium proprement
