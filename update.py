@@ -23,21 +23,20 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 try:
     # 🔽 Charger la page avec Selenium
     driver.get(url_page)
-    time.sleep(10)  # Attendre que le JS charge la page (ajuster si besoin)
+    time.sleep(10)  # Attendre que le JS charge la page
 
-    # 📜 Récupérer le HTML brut avec execute_script (view-source)
-    html_source = driver.execute_script("return document.documentElement.outerHTML;")
-
-    # 🔍 Trouver toutes les URLs M3U8 dans la page
-    urls_m3u8 = re.findall(r"https?://[^\s\"']+\.m3u8", html_source)
+    # 🌟 Trouver directement l'élément <source src="...m3u8">
+    source_elements = driver.find_elements("tag name", "source")
+    
+    # Vérifier si une source avec l'attribut 'type="application/x-mpegURL"' existe
+    urls_m3u8 = [
+        elem.get_attribute("src") for elem in source_elements 
+        if elem.get_attribute("type") == "application/x-mpegURL"
+    ]
 
     if urls_m3u8:
-        print(f"✅ {len(urls_m3u8)} URL(s) M3U8 trouvée(s) :")
-        for url in urls_m3u8:
-            print(f"🔗 {url}")
-        
-        # Prendre la première URL trouvée (ou ajuster selon tes besoins)
         nouvelle_url = urls_m3u8[0]
+        print(f"✅ URL M3U8 trouvée : {nouvelle_url}")
 
         # 🔄 Mettre à jour uniquement les lignes des URLs dans geral.m3u
         with open(fichier_m3u, "r") as file:
@@ -48,19 +47,17 @@ try:
             for line in lines:
                 if update_next_line and line.startswith("http"):
                     print(f"🔄 Mise à jour de l'URL : {line.strip()} → {nouvelle_url}")
-                    file.write(nouvelle_url + "\n")  # Remplace uniquement l'URL
+                    file.write(nouvelle_url + "\n")
                     update_next_line = False
                 else:
                     file.write(line)
-                    if 'tvg-id="M6.fr"' in line:  # Modifier si besoin selon geral.m3u
-                        update_next_line = True  # La ligne suivante contient l’URL à changer
+                    if 'tvg-id="M6.fr"' in line:
+                        update_next_line = True  
 
         print(f"✅ M6 mis à jour avec la nouvelle URL dans {fichier_m3u} !")
     
     else:
-        print("⚠️ Aucune URL M3U8 détectée dans la page.")
-        print("🔍 Voici un extrait du HTML récupéré (1000 premiers caractères) :")
-        print(html_source[:1000])  # Afficher un extrait pour vérifier le contenu réel
+        print("⚠️ Aucune URL M3U8 détectée dans les éléments <source>.")
 
 finally:
     driver.quit()  # Fermer Selenium proprement
