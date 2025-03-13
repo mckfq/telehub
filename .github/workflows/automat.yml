@@ -19,13 +19,14 @@ jobs:
 
       - name: Installer les dépendances Python
         run: |
-          pip install requests selenium selenium-wire webdriver-manager mitmproxy blinker
+          pip install --upgrade pip
+          pip install --no-cache-dir requests selenium selenium-wire webdriver-manager mitmproxy blinker
 
       - name: Installer Selenium et Chrome
         run: |
           sudo apt update
           sudo apt install -y chromium-chromedriver
-          
+  
       - name: Exécuter le script Python pour mettre à jour geral.m3u
         run: python update.py  # Exécute mon script Python
 
