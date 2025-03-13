@@ -30,7 +30,7 @@ jobs:
         run: python update.py  # Executing Python script
 
       - name: Update streams
-        run: bash automat.sh
+        run: bash automatpt.sh
 
       - name: Setup git config
         run: |
