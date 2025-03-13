@@ -23,7 +23,7 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 try:
     # 🔽 Charger la page avec Selenium
     driver.get(url_page)
-    time.sleep(10)  # Attendre que le JS charge la page
+    time.sleep(10)  # Attendre que le JS charge la page (peut-être ajuster si nécessaire)
 
     # 📜 Récupérer tout le code source de la page
     page_source = driver.page_source
