@@ -1,43 +1,38 @@
 name: Automat
+
 on:
   schedule:
-    - cron: '0 */8 * * *'  # Every 8h
-  workflow_dispatch:  # Manual lauch
+    - cron: '0 */8 * * *'  # Exécute toutes les 8 heures
+  workflow_dispatch:  # Permet un lancement manuel
 
 jobs:
   Update-streams:
     runs-on: ubuntu-latest
     steps:
     
-      - name: Repository checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Install Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.x"
-
-      - name: Install Python requests
-        run: pip install requests
-        
-      - name: Install Selenium and Chrome
-        run: |
-          pip install selenium webdriver-manager
-          sudo apt update
-          sudo apt install -y chromium-chromedriver
-          
-      - name: Execute Python and update list
-        run: python update.py  # Executing Python script
 
       - name: Update streams
         run: bash automatpt.sh
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run M6 update script
+        run: python update.py
 
       - name: Setup git config
         run: |
           git config user.name "mckfq"
           git config user.email "<>"
 
-      - name: Commit and push
+      - name: Commit and push changes
         run: |
           git pull
           git add *.m3u
