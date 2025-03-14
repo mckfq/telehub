@@ -26,10 +26,12 @@ jobs:
           pip install --upgrade pip setuptools wheel
           pip install --no-cache-dir cffi zstandard
 
-      - name: Installer les autres dépendances Python
+      - name: Réinstaller proprement Blinker et dépendances Selenium
         run: |
-          pip install --no-cache-dir --force-reinstall blinker
-          pip install --no-cache-dir requests selenium selenium-wire==5.1.0 webdriver-manager mitmproxy==10.2.3
+          pip uninstall -y selenium selenium-wire mitmproxy blinker
+          pip install --upgrade pip setuptools wheel
+          pip install --no-cache-dir blinker==1.7.0
+          pip install --no-cache-dir selenium selenium-wire==5.1.0 mitmproxy==10.2.3
 
       - name: Installer Google Chrome et ChromeDriver
         run: |
