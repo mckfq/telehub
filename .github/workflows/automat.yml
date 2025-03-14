@@ -30,11 +30,21 @@ jobs:
         run: |
           pip install --no-cache-dir requests selenium selenium-wire==5.1.0 webdriver-manager mitmproxy==10.2.3 blinker
 
-      - name: Installer ChromeDriver uniquement
+      - name: Installer Google Chrome et ChromeDriver
         run: |
+          sudo apt update
+          sudo apt install -y google-chrome-stable
+
+          # Récupérer la dernière version stable de ChromeDriver depuis l'API officielle
           CHROME_VERSION=$(google-chrome --version | grep -oP '[0-9]+\.[0-9]+\.[0-9]+')
-          CHROMEDRIVER_URL="https://storage.googleapis.com/chrome-for-testing-public/${CHROME_VERSION}/linux64/chromedriver-linux64.zip"
-          wget -q "$CHROMEDRIVER_URL" -O chromedriver.zip || echo "⚠️ Erreur de téléchargement de ChromeDriver"
+          DRIVER_VERSION=$(curl -s "https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json" | jq -r ".channels.Stable.downloads.chromedriver[] | select(.platform == \"linux64\") | .url")
+
+          if [[ -z "$DRIVER_VERSION" ]]; then
+            echo "❌ Erreur : Impossible de récupérer la version correcte de ChromeDriver."
+            exit 1
+          fi
+
+          wget -q "$DRIVER_VERSION" -O chromedriver.zip
           unzip -o chromedriver.zip
           sudo mv chromedriver-linux64/chromedriver /usr/local/bin/chromedriver
           sudo chmod +x /usr/local/bin/chromedriver
