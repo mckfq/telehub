@@ -1,5 +1,4 @@
 name: Automat
-
 on:
   schedule:
     - cron: '0 */8 * * *'  # Exécuter toutes les 8 heures
@@ -8,13 +7,13 @@ on:
 jobs:
   Update-streams:
     runs-on: ubuntu-latest
-
     steps:
+
       - name: Checkout du repo
         uses: actions/checkout@v4
 
       - name: Utiliser Python 3.12 (version stable)
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
           python-version: "3.12"
 
@@ -25,38 +24,45 @@ jobs:
       - name: Installer les dépendances critiques d'abord
         run: |
           pip install --upgrade pip setuptools wheel
-          pip install --no-cache-dir cffi zstandard blinker==1.6.2
+          pip install --no-cache-dir cffi zstandard
 
       - name: Installer les autres dépendances Python
         run: |
-          pip install --no-cache-dir requests selenium selenium-wire==5.1.0 webdriver-manager mitmproxy==10.2.3
+          pip install --no-cache-dir requests selenium selenium-wire==5.1.0 webdriver-manager mitmproxy==10.2.3 blinker
 
-      - name: Installer Selenium et Chrome
+      - name: Installer Chrome et ChromeDriver
         run: |
           sudo apt update
-          sudo apt install -y chromium-browser chromium-chromedriver
+          sudo apt install -y google-chrome-stable
+          CHROME_VERSION=$(google-chrome --version | grep -oP '[0-9]+')
+          CHROMEDRIVER_URL="https://storage.googleapis.com/chrome-for-testing-public/${CHROME_VERSION}/linux64/chromedriver-linux64.zip"
+          wget -q "$CHROMEDRIVER_URL" -O chromedriver.zip
+          unzip chromedriver.zip
+          sudo mv chromedriver-linux64/chromedriver /usr/local/bin/chromedriver
+          sudo chmod +x /usr/local/bin/chromedriver
 
-      - name: Vérifier l'installation de Chrome et Chromedriver
+      - name: Vérification des versions installées
         run: |
-          google-chrome --version || chromium-browser --version
+          google-chrome --version
           chromedriver --version
-
-      - name: Rendre automatpt.sh exécutable
-        run: chmod +x automatpt.sh
+          python --version
 
       - name: Exécuter le script Python pour mettre à jour geral.m3u
-        run: python update.py  # Exécute le script Python
+        run: python update.py  # Exécute mon script Python
+
+      - name: Vérification du fichier geral.m3u
+        run: cat geral.m3u || echo "⚠️ Fichier introuvable !"
 
       - name: Update streams PT
-        run:  bash automatpt.sh  # Ton script existant
+        run: bash automatpt.sh  # Ton script existant
 
       - name: Setup git config
         run: |
-          git config --global user.name "mckfq"
-          git config --global user.email "<>"
+          git config user.name "mckfq"
+          git config user.email "<>"
 
       - name: Commit et push
         run: |
           git pull
-          git add *.m3u automatpt.sh
+          git add *.m3u
           git diff --cached --exit-code || (git commit -m "[Auto] Stream update" && git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/mckfq/visual.git main)
