@@ -12,18 +12,22 @@ jobs:
       - name: Checkout du repo
         uses: actions/checkout@v4
 
-      - name: Installer Python
+      - name: Utiliser Python 3.12 (version stable)
         uses: actions/setup-python@v4
         with:
-          python-version: "3.x"
+          python-version: "3.12"
 
       - name: Nettoyer les anciennes installations
         run: |
-          pip uninstall -y selenium selenium-wire mitmproxy blinker
+          pip uninstall -y selenium selenium-wire mitmproxy blinker || true
 
-      - name: Installer les dépendances Python
+      - name: Installer les dépendances critiques d'abord
         run: |
-          pip install --upgrade pip
+          pip install --upgrade pip setuptools wheel
+          pip install --no-cache-dir cffi zstandard
+
+      - name: Installer les autres dépendances Python
+        run: |
           pip install --no-cache-dir requests selenium selenium-wire==5.1.0 webdriver-manager mitmproxy==10.2.3 blinker
 
       - name: Installer Selenium et Chrome
