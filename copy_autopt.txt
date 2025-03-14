@@ -1,4 +1,4 @@
-#V0 of Automat for Workflow
+#V0 of Automat for Workflow (PT only)
 
 name: Automat
 on:
