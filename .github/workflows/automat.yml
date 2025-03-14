@@ -21,6 +21,10 @@ jobs:
         run: |
           pip uninstall -y selenium selenium-wire mitmproxy blinker || true
 
+      - name: Installer les dépendances Python
+        run: |
+          pip install --no-cache-dir webdriver-manager
+
       - name: Installer les dépendances critiques d'abord
         run: |
           pip install --upgrade pip setuptools wheel
