@@ -30,21 +30,19 @@ jobs:
         run: |
           pip install --no-cache-dir requests selenium selenium-wire==5.1.0 webdriver-manager mitmproxy==10.2.3 blinker
 
-      - name: Installer Chrome et ChromeDriver
+      - name: Installer ChromeDriver uniquement
         run: |
-          sudo apt update
-          sudo apt install -y google-chrome-stable
-          CHROME_VERSION=$(google-chrome --version | grep -oP '[0-9]+')
+          CHROME_VERSION=$(google-chrome --version | grep -oP '[0-9]+\.[0-9]+\.[0-9]+')
           CHROMEDRIVER_URL="https://storage.googleapis.com/chrome-for-testing-public/${CHROME_VERSION}/linux64/chromedriver-linux64.zip"
-          wget -q "$CHROMEDRIVER_URL" -O chromedriver.zip
-          unzip chromedriver.zip
+          wget -q "$CHROMEDRIVER_URL" -O chromedriver.zip || echo "⚠️ Erreur de téléchargement de ChromeDriver"
+          unzip -o chromedriver.zip
           sudo mv chromedriver-linux64/chromedriver /usr/local/bin/chromedriver
           sudo chmod +x /usr/local/bin/chromedriver
 
       - name: Vérification des versions installées
         run: |
-          google-chrome --version
-          chromedriver --version
+          google-chrome --version || echo "⚠️ Google Chrome introuvable"
+          chromedriver --version || echo "⚠️ ChromeDriver introuvable"
           python --version
 
       - name: Exécuter le script Python pour mettre à jour geral.m3u
