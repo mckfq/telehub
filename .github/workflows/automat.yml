@@ -28,7 +28,8 @@ jobs:
 
       - name: Installer les autres dépendances Python
         run: |
-          pip install --no-cache-dir requests selenium selenium-wire==5.1.0 webdriver-manager mitmproxy==10.2.3 blinker
+          pip install --no-cache-dir --force-reinstall blinker
+          pip install --no-cache-dir requests selenium selenium-wire==5.1.0 webdriver-manager mitmproxy==10.2.3
 
       - name: Installer Google Chrome et ChromeDriver
         run: |
