@@ -1,53 +1,40 @@
 name: Automat
 on:
   schedule:
-    - cron: '0 */8 * * *'  # Exécuter toutes les 8 heures
-  workflow_dispatch:  # Permet de lancer manuellement
+    - cron: '0 0 * * *'  # Exécute tous les jours à minuit UTC
+  workflow_dispatch:
 
 jobs:
-  Update-streams:
+  update_list:
     runs-on: ubuntu-latest
+
     steps:
-    
-      - name: Checkout du repo
+      - name: Vérifier le dépôt
         uses: actions/checkout@v4
 
-      - name: Utiliser Python 3.12 (version stable)
-        uses: actions/setup-python@v4
+      - name: Configurer Python
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
-
-      - name: Nettoyer les anciennes installations
-        run: |
-          pip uninstall -y selenium selenium-wire mitmproxy blinker || true
+          python-version: '3.12'
 
       - name: Installer les dépendances critiques d'abord
         run: |
           pip install --upgrade pip setuptools wheel
-          pip install --no-cache-dir cffi zstandard
+          pip install --no-cache-dir cffi zstandard blinker==1.6.2
 
       - name: Installer les autres dépendances Python
         run: |
-          pip install --no-cache-dir requests selenium selenium-wire==5.1.0 webdriver-manager mitmproxy==10.2.3 blinker
+          pip install --no-cache-dir requests selenium selenium-wire==5.1.0 webdriver-manager mitmproxy==10.2.3
 
-      - name: Installer Selenium et Chrome
+      - name: Exécuter le script Python pour mettre à jour la liste geral.m3u
+        run: python update.py
+
+      - name: Vérifier les modifications
         run: |
-          sudo apt update
-          sudo apt install -y chromium-chromedriver
-  
-      - name: Exécuter le script Python pour mettre à jour geral.m3u
-        run: python update.py  # Exécute mon script Python
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add geral.m3u
+          git diff --cached --quiet || git commit -m "Mise à jour automatique de geral.m3u"
 
-      - name: Update streams PT
-        run: bash automatpt.sh  # Ton script existant
-
-      - name: Setup git config
-        run: |
-          git config user.name "mckfq"
-          git config user.email "<>"
-
-      - name: Commit et push
-        run: |
-          git pull
-          git add *.m3u
-          git diff --cached --exit-code || (git commit -m "[Auto] Stream update" && git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/mckfq/visual.git main)
+      - name: Pousser les modifications
+        run: git push
