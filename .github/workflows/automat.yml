@@ -48,7 +48,7 @@ jobs:
         run: python update.py  # Exécute le script Python
 
       - name: Update streams PT
-        run: ./automatpt.sh  # Ton script existant
+        run:  bash automatpt.sh  # Ton script existant
 
       - name: Setup git config
         run: |
