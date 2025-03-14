@@ -1,21 +1,26 @@
 name: Automat
+
 on:
   schedule:
-    - cron: '0 0 * * *'  # Exécute tous les jours à minuit UTC
-  workflow_dispatch:
+    - cron: '0 */8 * * *'  # Exécuter toutes les 8 heures
+  workflow_dispatch:  # Permet de lancer manuellement
 
 jobs:
-  update_list:
+  Update-streams:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Vérifier le dépôt
+      - name: Checkout du repo
         uses: actions/checkout@v4
 
-      - name: Configurer Python
+      - name: Utiliser Python 3.12 (version stable)
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.12"
+
+      - name: Nettoyer les anciennes installations
+        run: |
+          pip uninstall -y selenium selenium-wire mitmproxy blinker || true
 
       - name: Installer les dépendances critiques d'abord
         run: |
@@ -26,15 +31,32 @@ jobs:
         run: |
           pip install --no-cache-dir requests selenium selenium-wire==5.1.0 webdriver-manager mitmproxy==10.2.3
 
-      - name: Exécuter le script Python pour mettre à jour la liste geral.m3u
-        run: python update.py
-
-      - name: Vérifier les modifications
+      - name: Installer Selenium et Chrome
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add geral.m3u
-          git diff --cached --quiet || git commit -m "Mise à jour automatique de geral.m3u"
+          sudo apt update
+          sudo apt install -y chromium-browser chromium-chromedriver
 
-      - name: Pousser les modifications
-        run: git push
+      - name: Vérifier l'installation de Chrome et Chromedriver
+        run: |
+          google-chrome --version || chromium-browser --version
+          chromedriver --version
+
+      - name: Rendre automatpt.sh exécutable
+        run: chmod +x automatpt.sh
+
+      - name: Exécuter le script Python pour mettre à jour geral.m3u
+        run: python update.py  # Exécute le script Python
+
+      - name: Update streams PT
+        run: ./automatpt.sh  # Ton script existant
+
+      - name: Setup git config
+        run: |
+          git config --global user.name "mckfq"
+          git config --global user.email "<>"
+
+      - name: Commit et push
+        run: |
+          git pull
+          git add *.m3u automatpt.sh
+          git diff --cached --exit-code || (git commit -m "[Auto] Stream update" && git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/mckfq/visual.git main)
