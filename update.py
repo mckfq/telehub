@@ -11,24 +11,30 @@ url_page = "https://www.stream4free.tv/m6-live-streaming"
 # 📄 Fichier M3U à modifier
 fichier_m3u = "geral.m3u"
 
-# 🛠️ Configurer Selenium avec Chrome en mode headless
+# 🛠️ Configurer Selenium avec Chrome
 options = Options()
-options.add_argument("--headless")  
+# options.add_argument("--headless")  # Désactive temporairement pour debug
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36")
 
-# Utiliser selenium-wire pour intercepter les requêtes
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
 try:
     # 🔽 Charger la page avec Selenium
     driver.get(url_page)
-    time.sleep(10)  # Laisser le JS charger
+    time.sleep(5)  # Temps d'attente initial
+
+    # 🔄 Défilement pour charger les requêtes AJAX
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    time.sleep(10)  # Attendre que les requêtes réseau se chargent
 
     # 📡 Intercepter toutes les requêtes réseau
     urls_m3u8 = set()
+    
+    print("🔍 Liste des requêtes capturées :")
     for request in driver.requests:
+        print(f"➡️ {request.url}")  # Afficher toutes les requêtes interceptées
         if request.response and ".m3u8" in request.url:
             urls_m3u8.add(request.url)
 
@@ -37,10 +43,9 @@ try:
         for url in urls_m3u8:
             print(f"🔗 {url}")
 
-        # Prendre la première URL trouvée (ou ajuster selon tes besoins)
-        nouvelle_url = list(urls_m3u8)[0]
+        nouvelle_url = list(urls_m3u8)[0]  # Prendre la première URL trouvée
 
-        # 🔄 Mettre à jour uniquement les lignes des URLs dans geral.m3u
+        # 🔄 Mettre à jour geral.m3u
         with open(fichier_m3u, "r") as file:
             lines = file.readlines()
 
@@ -48,18 +53,18 @@ try:
             update_next_line = False
             for line in lines:
                 if update_next_line and line.startswith("http"):
-                    print(f"🔄 Mise à jour de l'URL : {line.strip()} → {nouvelle_url}")
-                    file.write(nouvelle_url + "\n")  # Remplace uniquement l'URL
+                    print(f"🔄 Mise à jour : {line.strip()} → {nouvelle_url}")
+                    file.write(nouvelle_url + "\n")
                     update_next_line = False
                 else:
                     file.write(line)
-                    if 'tvg-id="M6.fr"' in line:  # Modifier si besoin selon geral.m3u
-                        update_next_line = True  # La ligne suivante contient l’URL à changer
+                    if 'tvg-id="M6.fr"' in line:
+                        update_next_line = True
 
-        print(f"✅ M6 mis à jour avec la nouvelle URL dans {fichier_m3u} !")
+        print(f"✅ M6 mis à jour dans {fichier_m3u} !")
 
     else:
-        print("⚠️ Aucune URL M3U8 détectée dans les requêtes réseau.")
+        print("⚠️ Aucune URL M3U8 détectée.")
 
 finally:
-    driver.quit()  # Fermer Selenium proprement
+    driver.quit()
