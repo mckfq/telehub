@@ -46,7 +46,7 @@ try:
     page_source = driver.page_source
     
     # 🔍 Trouver les URLs M3U8
-    urls_m3u8 = re.findall(r"https?://[^\s"']+\.m3u8", page_source)
+    urls_m3u8 = re.findall(r"https?://[^\s\"']+\.m3u8", page_source)
     
     if urls_m3u8:
         logging.info(f"✅ {len(urls_m3u8)} URL(s) M3U8 trouvée(s) : {urls_m3u8}")
