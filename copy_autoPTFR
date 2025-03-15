@@ -1,0 +1,38 @@
+#VO working for autoPT+FR
+
+name: Automat
+on:
+  schedule:
+    - cron: '0 */8 * * *'  # Exécuter toutes les 8 heures
+  workflow_dispatch:
+
+jobs:
+  Update-streams:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout du repo
+        uses: actions/checkout@v4
+
+      - name: Installer Python et dépendances
+        run: |
+          pip install selenium webdriver-manager
+          sudo apt update
+          sudo apt install -y chromium-chromedriver
+
+      - name: Exécuter le script Python pour mettre à jour geral.m3u
+        run: python update_m3u.py  # Exécute le script Selenium
+
+      - name: Update streams (ton script)
+        run: bash automat.sh  # Ton script existant
+
+      - name: Setup git config
+        run: |
+          git config user.name "mckfq"
+          git config user.email "<>"
+
+      - name: Commit et push
+        run: |
+          git pull
+          git add *.m3u
+          git diff --cached --exit-code || (git commit -m "[Auto] Stream update" && git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/mckfq/visual.git main)
