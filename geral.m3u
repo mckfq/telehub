@@ -279,8 +279,9 @@ https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 
 # Music
 
-#EXTINF:-1 group-title="Music" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Logo_Mezzo_Live_%282023%29.svg/1024px-Logo_Mezzo_Live_%282023%29.svg.png",Mezzo HD
-http://198.16.106.58:8278/mezzolive_twn/playlist.m3u8?tid=MF1F9413393694133936&ct=18393&tsum=dd6108553cf0870a6614fe2fc573e4a5
+#EXTINF:-1 tvg-id="Mezzo.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Logo_Mezzo_Live_%282023%29.svg/1024px-Logo_Mezzo_Live_%282023%29.svg.png" group-title="Music" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148",Mezzo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s35/index.m3u8
 
 # Link to test
 
