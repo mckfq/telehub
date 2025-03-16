@@ -285,8 +285,10 @@ https://live-hls-web-aje.getaj.net/AJE/master.m3u8
 #EXTINF:-1 group-title="Info" tvg-logo="https://i.ibb.co/s9gLmqv/cgtnch.png",CGTN News
 https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 
-
-
+#EXTINF:-1 group-title="Music" tvg-logo="https://i.ibb.co/s9gLmqv/cgtnch.png",Mezzo HD
+https://list.iptvcat.com/my_list/s/fd09263c43d62552aef6e01e13c1ffb5.m3u8
+#EXTINF:-1 group-title="Check" tvg-logo="https://i.ibb.co/s9gLmqv/cgtnch.png",Sport TV
+https://list.iptvcat.com/my_list/s/6e3d1911b63cc9e479b7f9388fc81167.m3u8
 
 # Link to test
 
