@@ -9,6 +9,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 # Configuration du logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -19,7 +20,10 @@ url_page = "https://www.stream4free.tv/m6-live-streaming"
 # 📄 Fichier M3U à modifier
 fichier_m3u = "geral.m3u"
 
-# 🛠️ Configurer Selenium avec Chrome en mode headless
+# 🛠️ Configurer Selenium avec interception réseau
+capabilities = DesiredCapabilities.CHROME
+capabilities["goog:loggingPrefs"] = {"performance": "ALL"}  # Activer les logs réseau
+
 options = Options()
 options.add_argument("--headless")
 options.add_argument("--no-sandbox")
@@ -28,7 +32,7 @@ options.add_argument("--disable-blink-features=AutomationControlled")  # Anti-d�
 options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36")
 
 try:
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options, desired_capabilities=capabilities)
     logging.info("✅ Selenium lancé avec succès.")
 except Exception as e:
     logging.error(f"❌ Erreur lors du lancement de Selenium : {e}")
@@ -38,20 +42,22 @@ try:
     driver.get(url_page)
     logging.info("🌍 Chargement de la page...")
 
-    # Attente explicite pour s'assurer que JavaScript a chargé le contenu
-    WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
+    # Attendre un élément clé du player vidéo pour s'assurer que JS a chargé
+    WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.TAG_NAME, "video")))
     logging.info("✅ Page chargée avec succès.")
 
-    # Récupération des cookies pour éviter d'être bloqué
-    cookies = {c["name"]: c["value"] for c in driver.get_cookies()}
-    logging.info("🍪 Cookies récupérés.")
+    # Récupérer les logs réseau
+    logs = driver.get_log("performance")
 
-    # 📜 Récupérer le code source après chargement de la page
-    page_source = driver.page_source
+    # Chercher une URL M3U8 valide dans les requêtes réseau
+    urls_m3u8 = set()
+    for log in logs:
+        if ".m3u8" in log["message"]:
+            match = re.search(r"https?://[^\s\"']+\.m3u8", log["message"])
+            if match:
+                urls_m3u8.add(match.group(0))
 
-    # 🔍 Trouver les URLs M3U8 en filtrant celles qui sont valides
-    urls_m3u8 = re.findall(r"https?://[^\s\"']+\.m3u8", page_source)
-    urls_m3u8 = list(set(urls_m3u8))  # Supprimer les doublons
+    urls_m3u8 = list(urls_m3u8)
 
     if urls_m3u8:
         logging.info(f"✅ {len(urls_m3u8)} URL(s) M3U8 trouvée(s) : {urls_m3u8}")
@@ -60,7 +66,7 @@ try:
         nouvelle_url = None
         for url in urls_m3u8:
             try:
-                response = requests.get(url, headers={"User-Agent": options.arguments[-1]}, cookies=cookies, timeout=5)
+                response = requests.get(url, headers={"User-Agent": options.arguments[-1]}, timeout=5)
                 if response.status_code == 200:
                     nouvelle_url = url
                     logging.info(f"✅ URL valide trouvée : {nouvelle_url}")
@@ -90,12 +96,12 @@ try:
                     update_next_line = False
                 else:
                     file.write(line)
-                    if 'tvg-id="M6.fr"' in line:
+                    if 'tvg-name="M6"' in line:
                         update_next_line = True  # La ligne suivante contient l’URL à changer
         
         logging.info(f"✅ M6 mis à jour avec la nouvelle URL dans {fichier_m3u} !")
     else:
-        logging.warning("⚠️ Aucune URL M3U8 détectée dans la page.")
+        logging.warning("⚠️ Aucune URL M3U8 détectée dans les requêtes réseau.")
 
 finally:
     driver.quit()
