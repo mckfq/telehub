@@ -38,11 +38,37 @@ try:
 except Exception as e:
     logging.error(f"❌ Erreur lors du lancement de Selenium : {e}")
     exit(1)
+from selenium.webdriver.common.devtools.v117 import devtools
+
+devtools = driver.execute_cdp_cmd("Network.enable", {})
+
+def intercept_request(params):
+    url = params.get("request", {}).get("url", "")
+    if ".m3u8" in url:
+        print(f"🔍 URL trouvée : {url}")
+
+driver.execute_cdp_cmd("Network.setRequestInterception", {"patterns": [{"urlPattern": "*"}]})
+driver.execute_cdp_cmd("Network.requestWillBeSent", {"listener": intercept_request})
 
 try:
     driver.get(url_page)
     logging.info("🌍 Chargement de la page...")
 
+from selenium.webdriver.common.action_chains import ActionChains
+
+# Simuler un scroll
+driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+time.sleep(2)
+
+# Simuler un clic sur le player (si présent)
+try:
+    video_player = driver.find_element(By.TAG_NAME, "video")
+    ActionChains(driver).move_to_element(video_player).click().perform()
+    logging.info("🎬 Interaction avec le player vidéo.")
+    time.sleep(3)  # Laisser le temps à l'URL de charger après le clic
+except Exception:
+    logging.warning("⚠️ Aucun player vidéo détecté.")
+    
     # Attendre un élément clé du player vidéo pour s'assurer que JS a chargé
     WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.TAG_NAME, "video")))
     logging.info("✅ Page chargée avec succès.")
