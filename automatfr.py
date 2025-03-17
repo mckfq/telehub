@@ -32,8 +32,8 @@ options.add_argument("--disable-blink-features=AutomationControlled")  # Anti-d�
 options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36")
 
 try:
-options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
-driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     logging.info("✅ Selenium lancé avec succès.")
 except Exception as e:
     logging.error(f"❌ Erreur lors du lancement de Selenium : {e}")
