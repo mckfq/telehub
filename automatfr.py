@@ -1,5 +1,4 @@
 import os
-import time
 import re
 import logging
 import requests
@@ -22,9 +21,10 @@ fichier_m3u = "geral.m3u"
 
 # 🛠️ Configurer Selenium avec Chrome en mode headless
 options = Options()
-options.add_argument("--headless")  
+options.add_argument("--headless")
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
+options.add_argument("--disable-blink-features=AutomationControlled")  # Anti-détection Selenium
 options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36")
 
 try:
@@ -37,29 +37,39 @@ except Exception as e:
 try:
     driver.get(url_page)
     logging.info("🌍 Chargement de la page...")
-    
-    # Attente jusqu'à ce qu'un élément spécifique chargé par JS apparaisse (ajuster si nécessaire)
+
+    # Attente explicite pour s'assurer que JavaScript a chargé le contenu
     WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
     logging.info("✅ Page chargée avec succès.")
-    
-    # 📜 Récupérer le code source
+
+    # Récupération des cookies pour éviter d'être bloqué
+    cookies = {c["name"]: c["value"] for c in driver.get_cookies()}
+    logging.info("🍪 Cookies récupérés.")
+
+    # 📜 Récupérer le code source après chargement de la page
     page_source = driver.page_source
-    
-    # 🔍 Trouver les URLs M3U8
+
+    # 🔍 Trouver les URLs M3U8 en filtrant celles qui sont valides
     urls_m3u8 = re.findall(r"https?://[^\s\"']+\.m3u8", page_source)
-    
+    urls_m3u8 = list(set(urls_m3u8))  # Supprimer les doublons
+
     if urls_m3u8:
         logging.info(f"✅ {len(urls_m3u8)} URL(s) M3U8 trouvée(s) : {urls_m3u8}")
-        nouvelle_url = urls_m3u8[0]
-        
-        # Vérifier si l'URL est accessible
-        try:
-            response = requests.get(nouvelle_url, timeout=5)
-            if response.status_code != 200:
-                logging.warning(f"⚠️ L'URL M3U8 semble invalide (HTTP {response.status_code}) : {nouvelle_url}")
-                exit(1)
-        except requests.RequestException:
-            logging.error(f"❌ Impossible d'accéder à l'URL M3U8 : {nouvelle_url}")
+
+        # Vérifier quelle URL est valide
+        nouvelle_url = None
+        for url in urls_m3u8:
+            try:
+                response = requests.get(url, headers={"User-Agent": options.arguments[-1]}, cookies=cookies, timeout=5)
+                if response.status_code == 200:
+                    nouvelle_url = url
+                    logging.info(f"✅ URL valide trouvée : {nouvelle_url}")
+                    break
+            except requests.RequestException:
+                logging.warning(f"⚠️ URL inaccessible : {url}")
+
+        if not nouvelle_url:
+            logging.error("❌ Aucune URL valide trouvée !")
             exit(1)
 
         # Vérifier si le fichier M3U existe
@@ -80,7 +90,7 @@ try:
                     update_next_line = False
                 else:
                     file.write(line)
-                    if 'tvg-name="M6"' in line:
+                    if 'tvg-id="M6.fr"' in line:
                         update_next_line = True  # La ligne suivante contient l’URL à changer
         
         logging.info(f"✅ M6 mis à jour avec la nouvelle URL dans {fichier_m3u} !")
