@@ -255,9 +255,7 @@ http://s18209.cdn.ngenix.net/hls/CH_R01_TNT/playlist.m3u8
 
 # Info
 
-#EXTINF:-1 tvg-id="CNN.us" group-title="Info" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/cnn.png",CNN
-https://nfsnew.koskoros.ru/nfs/premium345/mono.m3u8|Referer=https://dokoplay.xyz/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://dokoplay.xyz
-#EXTINF:-1 group-title="Info" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/CNN-International-Logo.svg/1024px-CNN-International-Logo.svg.png",CNN International
+#EXTINF:-1 group-title="Info" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/CNN_International_2009.svg/1024px-CNN_International_2009.svg.png",CNN International
 https://d3696l48vwq25d.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0g2918mubifjw/index.m3u8
 #EXTINF:-1 group-title="Info" tvg-id="NHKWorldJapan.jp" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/NHK-World.png",NHK World Japan
 #KODIPROP:inputstream=inputstream.adaptive
@@ -281,12 +279,16 @@ https://live-hls-web-aje.getaj.net/AJE/master.m3u8
 #EXTINF:-1 group-title="Info" tvg-logo="https://i.ibb.co/s9gLmqv/cgtnch.png",CGTN News
 https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 
+#EXTINF:-1 tvg-id="CNN.us" group-title="Info" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/cnn.png",CNN
+https://nfsnew.koskoros.ru/nfs/premium345/mono.m3u8|Referer=https://dokoplay.xyz/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://dokoplay.xyz
+#EXTINF:-1 tvg-id="CNBC.USA.us" group-title="Info" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/nbc-usa.png",CNBC
+https://zekonew.koskoros.ru/zeko/premium309/mono.m3u8|Referer=https://dokoplay.xyz/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://dokoplay.xyz
+
 # Music
 
 #EXTINF:-1 tvg-id="Mezzo.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Logo_Mezzo_Live_%282023%29.svg/1024px-Logo_Mezzo_Live_%282023%29.svg.png" group-title="Music" ,Mezzo HD
 https://list.iptvcat.com/my_list/s/fd09263c43d62552aef6e01e13c1ffb5.m3u8
-#EXTINF:-1 tvg-id="Mezzo.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Logo_Mezzo_Live_%282023%29.svg/1024px-Logo_Mezzo_Live_%282023%29.svg.png" group-title="Music" ,Mezzo HD
-https://list.iptvcat.com/my_list/s/2c6478d7e99a8522835fe130b08d2c03.m3u8
+
 
 # Link to test
 
