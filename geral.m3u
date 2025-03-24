@@ -124,7 +124,11 @@ https://multimedia.eitb.eus/live-content/etb1hd-hls/master.m3u8
 https://multimedia.eitb.eus/live-content/etb2hd-hls/master.m3u8
 #EXTINF:-1 tvg-id="TVGalicia.es" group-title="Espana" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Televisi%C3%B3n_de_Galicia_Logo.svg/1024px-Televisi%C3%B3n_de_Galicia_Logo.svg.png" ,TV Galicia
 https://crtvg-europa.flumotion.cloud/playlist.m3u8
+#EXTINF:-1 group-title="Espana" tvg-id="TV3cat.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/TV3.svg/1214px-TV3.svg.png",TV3 Catalunya
+https://directes-tv-int.ccma.cat/live-origin/tvi-hls/master.m3u8
 
+#EXTINF:-1 group-title="Espana" tvg-id="TVE24h.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Logo_TVE-24h.svg/1200px-Logo_TVE-24h.svg.png",Canal 24 horas
+https://rtvelivestream.akamaized.net/rtvesec/24h/24h_main.m3u8
 #EXTINF:-1 tvg-id="TDP.es" group-title="Espana" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/36/Tve_teledeporte.png",Teledeporte
 https://dokko1new.koskoros.ru/dokko1/premium529/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 
