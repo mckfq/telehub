@@ -9,18 +9,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     
-      - name: checkout
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: update streams
+      - name: PT Streams update
         run: bash automatpt.sh
 
-      - name: setup git config
+      - name: Git config setup
         run: |
           git config user.name "mckfq"
           git config user.email "<>"
 
-      - name: commit
+      - name: Commit
         run: |
           git pull
           git add *.m3u
