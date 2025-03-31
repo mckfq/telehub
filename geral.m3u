@@ -11,7 +11,7 @@ https://ddy6new.koskoros.ru/ddy6/premium720/mono.m3u8|Referer=https://cookiewebp
 #EXTINF:-1 tvg-id="SIC.pt" group-title="Portugal" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
 https://ddy6new.koskoros.ru/ddy6/premium722/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 group-title="Portugal" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
-https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8zMS8yMDI1IDE6NDU6MTUgQU0maGFzaF92YWx1ZT04OGdxSkRFK0l4ZjVhRnJJbUZ5bWRRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ODdmZDAwYWMtOWE4MS00ZWM5LWExMTYtNTJiYWZjZDU0MTZh/
+https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8zMS8yMDI1IDg6Mjg6MzMgQU0maGFzaF92YWx1ZT1kc2owSzlGV3l1MWQzdk1TK1I3SDFnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ODJiMmM0ODgtMDU0MC00MjQxLTk2ZTQtZjFmYzRjOGM4ODRm/
 #EXTINF:-1 tvg-id="RTP3.pt" group-title="Portugal" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/Rtp3.png" ,RTP3
 https://ddy6new.koskoros.ru/ddy6/premium721/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 group-title="Portugal" tvg-id="SICNoticias.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/SIC_Not%C3%ADcias_%282023%29.svg/1024px-SIC_Not%C3%ADcias_%282023%29.svg.png",SIC Notícias
@@ -19,7 +19,7 @@ https://ddy6new.koskoros.ru/ddy6/premium721/mono.m3u8|Referer=https://cookiewebp
 #https://sicnot.live.impresa.pt/sicnot.m3u8
 https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index.m3u8
 #EXTINF:-1 group-title="Portugal" tvg-id="CNNPortugal.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
-https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8zMS8yMDI1IDE6NDU6MTYgQU0maGFzaF92YWx1ZT1CLzVDamJwYjJtMndObktRTkh4M1FBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZTQwYWRlZGEtN2ZiYS00NzU0LTkwMjUtYzVhYjA2OWM5MTI1/
+https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8zMS8yMDI1IDg6Mjg6MzQgQU0maGFzaF92YWx1ZT1BKzcrT2JYTkRrNWMyOGh5WW9xTkdRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YTBmMGRmMGItNDRlMy00NTMyLThmNmYtMWM5MDdhNTIzOTBh/
 #EXTINF:-1 tvg-id="CMTV.HD.pt" group-title="Portugal" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/cmtv.png",CMTV
 https://windnew.koskoros.ru/wind/premium790/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
 #EXTINF:-1 group-title="Portugal" tvg-id="EuronewsPortuguese.fr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",Euronews PT
