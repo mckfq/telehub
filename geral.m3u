@@ -293,10 +293,11 @@ https://zekonew.newkso.ru/zeko/premium309/mono.m3u8|Referer=https://dokoplay.xyz
 
 # Music
 
-#EXTINF:-1 tvg-id="Mezzo.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Logo_Mezzo_Live_%282023%29.svg/1024px-Logo_Mezzo_Live_%282023%29.svg.png" group-title="Music" ,Mezzo HD
-https://list.iptvcat.com/my_list/s/fd09263c43d62552aef6e01e13c1ffb5.m3u8
-#EXTINF:-1 tvg-id="MTV.fr "group-title="Music" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MTV-2021.svg/1024px-MTV-2021.svg.png",MTV
-http://213.246.39.14:8070/MTV/index.m3u8
+#EXTINF:-1 tvg-id="Mezzo.fr" tvg-logo="https://i.imgur.com/auNdGeW.png" group-title="Music" http-user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148",Mezzo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s35/index.m3u8
+#EXTINF:-1 tvg-id="MTV.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MTV-2021.svg/512px-MTV-2021.svg.png" group-title="Music",MTV
+http://190.2.155.162:8080/mtvfrance/mpegts
 
 # Link to test
 
