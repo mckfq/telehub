@@ -263,9 +263,9 @@ http://s18209.cdn.ngenix.net/hls/CH_R01_TNT/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ABC.(WABC).New.York,.NY.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/abc.png" group-title="USA",ABC
 https://zekonew.newkso.ru/zeko/premium51/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
-#EXTINF:-1 tvg-id="CBS.(WCBS).New.York,.NY.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/syfy-usa.png" group-title="USA",CBS NY
+#EXTINF:-1 tvg-id="CBS.(WCBS).New.York,.NY.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/CBS_New_York_logo.svg/1024px-CBS_New_York_logo.svg.png" group-title="USA",CBS NY
 https://zekonew.newkso.ru/zeko/premium767/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
-#EXTINF:-1 tvg-id="CBS.(KCBS).Los.Angeles,.CA.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/cbs-usa.png" group-title="USA",CBS LA
+#EXTINF:-1 tvg-id="CBS.(KCBS).Los.Angeles,.CA.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/CBS_Los_Angeles_logo.svg/1024px-CBS_Los_Angeles_logo.svg.png" group-title="USA",CBS LA
 https://nfsnew.newkso.ru/nfs/premium52/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
 #EXTINF:-1 tvg-id="FOX.(WNYW).New.York,.NY.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/foxny.png" group-title="USA",FOX NY
 https://zekonew.newkso.ru/zeko/premium768/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
