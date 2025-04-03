@@ -1,4 +1,4 @@
-**WARNING**
+**WARNING - DISCLAIMER**
 
 This file is **only** for personal use of the repository owner and for referencing only.
 
