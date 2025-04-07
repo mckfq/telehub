@@ -68,11 +68,11 @@ https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/Sm9PtLR/cstar.png",CStar
 https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/canalplus/cstar-dm.m3u8
 #EXTINF:-1 group-title="France" tvg-id="TF1SeriesFilms.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/4/4b/TF1_S%C3%A9ries_Films_logo_2020.svg/1024px-TF1_S%C3%A9ries_Films_logo_2020.svg.png" ,TF1 Séries Films
-https://sv1.data-stream.top/5f5f16f23c04ae1ebaf1f2c8a5c377c70f2e0ef6309e7dfcaf8fa83402dbf407/hls/seriefilmes.m3u8
+http://gratuittv.free.fr/Files/parispremier/live/playlist.m3u8
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/KXhYwm0/lequipe.png",L'Équipe TV
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/dmotion/py/eqpe/ekip.m3u8
 #EXTINF:-1 group-title="France" tvg-id="6ter.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/07/6ter.png" ,6ter
-http://gratuittv.free.fr/Files/6ter/live/playlist.m3u8
+http://gratuittv.free.fr/Files/tfsf/live/playlist.m3u8
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/fdYg3Lz/rmcstory.png",RMC Story
 https://d36bxc1bknkxrk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3ewcp19zjaxpt/index.m3u8
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/VS4xR2g/rmcdecou.png",RMC Découverte
