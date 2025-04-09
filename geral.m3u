@@ -327,14 +327,21 @@ http://fl3.moveonjoy.com/Discovery_Channel/index.m3u8
 
 # Info
 
-#EXTINF:-1 group-title="Info" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/1024px-CNN_International_logo.svg.png",CNN International
-https://d3696l48vwq25d.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0g2918mubifjw/index.m3u8
+#EXTINF:-1 tvg-id="CNN.us" group-title="Info" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/cnn.png",CNN
+https://nfsnew.newkso.ru/nfs/premium345/mono.m3u8|Referer=https://dokoplay.xyz/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://dokoplay.xyz
+#EXTINF:-1 tvg-id="CNBC.USA.us" group-title="Info" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/961px-CNBC_logo.svg.png",CNBC
+https://zekonew.newkso.ru/zeko/premium309/mono.m3u8|Referer=https://dokoplay.xyz/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://dokoplay.xyz
+#EXTINF:-1 tvg-id="Fox.News.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/fox-news.png" group-title="Info",Fox News
+https://zekonew.newkso.ru/zeko/premium347/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
+
 #EXTINF:-1 group-title="Info" tvg-id="NHKWorldJapan.jp" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/NHK-World.png",NHK World Japan
 #KODIPROP:inputstream=inputstream.adaptive
 https://nhkwlive-ojp.nhkworld.jp/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 #EXTINF:-1 group-title="Info" tvg-id="EuronewsEN.fr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",Euronews EN
 #KODIPROP:inputstream=inputstream.adaptive
 http://stream01.vnet.am/Channel_119/mono.m3u8
+#EXTINF:-1 group-title="Info" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/1024px-CNN_International_logo.svg.png",CNN International
+https://d3696l48vwq25d.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0g2918mubifjw/index.m3u8
 #EXTINF:-1 group-title="Info" #EXTINF:-1 tvg-logo="https://i.ibb.co/sd7qf1w7/icirdiqb.png",ICI RDI
 https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master.m3u8
 #EXTINF:-1 group-title="Info" tvg-logo="https://i.ibb.co/Vt0XZKf/Cbcnews.png",CBC News
@@ -353,13 +360,6 @@ https://live-hls-web-aje.getaj.net/AJE/master.m3u8
 #EXTINF:-1 group-title="Info" tvg-logo="https://i.ibb.co/s9gLmqv/cgtnch.png",CGTN News
 https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 
-#EXTINF:-1 tvg-id="CNN.us" group-title="Info" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/cnn.png",CNN
-https://nfsnew.newkso.ru/nfs/premium345/mono.m3u8|Referer=https://dokoplay.xyz/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://dokoplay.xyz
-#EXTINF:-1 tvg-id="CNBC.USA.us" group-title="Info" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/961px-CNBC_logo.svg.png",CNBC
-https://zekonew.newkso.ru/zeko/premium309/mono.m3u8|Referer=https://dokoplay.xyz/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://dokoplay.xyz
-#EXTINF:-1 tvg-id="Fox.News.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/fox-news.png" group-title="Info",Fox News
-https://zekonew.newkso.ru/zeko/premium347/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
-
 
 # Music
 
@@ -374,7 +374,7 @@ http://fl2.moveonjoy.com/MTV_LIVE/index.m3u8
 https://clubbingtv-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-clubbingtv-rakuten/CDN/master.m3u8
 
 
-# Others - UHD & 4K
+# Others - Arts - UHD & 4K
 GH/a1xmedia/m3u/blob/main/a1x
 
 #EXTINF:-1 tvg-id="Love.Nature.ca" tvg-name="Love Nature 4K" tvg-logo="https://i.ibb.co/SdSKhsj/love-nature-4k.png" group-title="4K",Love Nature 4K
@@ -384,10 +384,10 @@ https://a1xs.vip/travelxpuhd
 #EXTINF:-1 tvg-id="HOME.4K.pl" tvg-name="HOME 4K" tvg-logo="https://i.ibb.co/kg6GPds2/Home4k.webp" group-title="4K",Home 4K
 https://a1xs.vip/home4k
 #EXTINF:-1 tvg-id="Museum.4k.fr" tvg-name="MUSEUM TV 4K" tvg-logo="https://i.imgur.com/a55LkwU.png" group-title="4K",Museum TV 4K
-https://live2.creacast.com/museum-france/smil:museum-france.smil/master.m3u8
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtven-xiaomi/playlist.m3u8
 #EXTINF:-1 tvg-id="Loupe4k" tvg-name="Loupe 4K" tvg-logo="https://i.ibb.co/RP5Kv3k/loupe.png" group-title="4K",Loupe 4K
 https://a1xs.vip/loupe4k
-#EXTINF:-1 tvg-id="MyZen.4K.ro" tvg-name="MyZen 4K" tvg-logo="https://i.imgur.com/GDZobhF.png" group-title="4K",MyZen 4K (Multi Audio)
+#EXTINF:-1 tvg-id="MyZen.4K.ro" tvg-name="MyZen 4K" tvg-logo="https://i.imgur.com/GDZobhF.png" group-title="4K",MyZen 4K
 https://a1xs.vip/myzen4k
 
 
