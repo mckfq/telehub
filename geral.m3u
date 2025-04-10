@@ -68,7 +68,7 @@ https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/Sm9PtLR/cstar.png",CStar
 https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/canalplus/cstar-dm.m3u8
 #EXTINF:-1 group-title="France" tvg-id="TF1SeriesFilms.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/4/4b/TF1_S%C3%A9ries_Films_logo_2020.svg/1024px-TF1_S%C3%A9ries_Films_logo_2020.svg.png" ,TF1 Séries Films
-http://gratuittv.free.fr/Files/parispremier/live/playlist.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tf1-series-films.m3u8
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/KXhYwm0/lequipe.png",L'Équipe TV
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/dmotion/py/eqpe/ekip.m3u8
 #EXTINF:-1 group-title="France" tvg-id="6ter.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/07/6ter.png" ,6ter
@@ -380,19 +380,20 @@ https://clubbingtv-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-clubbingtv-raku
 # Others - Arts - UHD & 4K
 GH/a1xmedia/m3u/blob/main/a1x
 
-#EXTINF:-1 tvg-id="Love.Nature.ca" tvg-name="Love Nature 4K" tvg-logo="https://i.ibb.co/SdSKhsj/love-nature-4k.png" group-title="4K",Love Nature 4K
+#EXTINF:-1 tvg-id="Love.Nature.ca" tvg-name="Love Nature 4K" tvg-logo="https://i.ibb.co/SdSKhsj/love-nature-4k.png" group-title="Travel",Love Nature 4K
 https://a1xs.vip/lovent4k
-#EXTINF:-1 tvg-id="travelxp.4K.de" tvg-name="Travelxp 4K" tvg-logo="https://i.ibb.co/GCKtvqn/Travelxp-4-K.png" group-title="4K",Travelxp 4K
+#EXTINF:-1 tvg-id="travelxp.4K.de" tvg-name="Travelxp 4K" tvg-logo="https://i.ibb.co/GCKtvqn/Travelxp-4-K.png" group-title="Travel",Travelxp 4K
 https://a1xs.vip/travelxpuhd
-#EXTINF:-1 tvg-id="HOME.4K.pl" tvg-name="HOME 4K" tvg-logo="https://i.ibb.co/kg6GPds2/Home4k.webp" group-title="4K",Home 4K
+#EXTINF:-1 tvg-id="HOME.4K.pl" tvg-name="HOME 4K" tvg-logo="https://i.ibb.co/kg6GPds2/Home4k.webp" group-title="Travel",Home 4K
 https://a1xs.vip/home4k
-#EXTINF:-1 tvg-id="Museum.4k.fr" tvg-name="MUSEUM TV 4K" tvg-logo="https://i.imgur.com/a55LkwU.png" group-title="4K",Museum TV 4K
+#EXTINF:-1 tvg-id="Museum.4k.fr" tvg-name="MUSEUM TV 4K" tvg-logo="https://i.imgur.com/a55LkwU.png" group-title="Travel",Museum TV 4K
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtven-xiaomi/playlist.m3u8
-#EXTINF:-1 tvg-id="Loupe4k" tvg-name="Loupe 4K" tvg-logo="https://i.ibb.co/RP5Kv3k/loupe.png" group-title="4K",Loupe 4K
+#EXTINF:-1 tvg-id="Loupe4k" tvg-name="Loupe 4K" tvg-logo="https://i.ibb.co/RP5Kv3k/loupe.png" group-title="Travel",Loupe 4K
 https://a1xs.vip/loupe4k
-#EXTINF:-1 tvg-id="MyZen.4K.ro" tvg-name="MyZen 4K" tvg-logo="https://i.imgur.com/GDZobhF.png" group-title="4K",MyZen 4K
+#EXTINF:-1 tvg-id="MyZen.4K.ro" tvg-name="MyZen 4K" tvg-logo="https://i.imgur.com/GDZobhF.png" group-title="Travel",MyZen 4K
 https://a1xs.vip/myzen4k
-
+#EXTINF:-1 tvg-chno="1067" tvg-id="FRBD4800001P4" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD4800001P4_20241106T142647SQUARE.png" tvg-country="FR" group-title="Travel",1067. J'irai Dormir Chez Vous
+https://jmp2.uk/sam-FRBD4800001P4.m3u8
 
 
 # Link to test
