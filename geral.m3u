@@ -275,24 +275,24 @@ https://streaming.televizor-24-tochka.ru/live/38.m3u8
 
 # USA - Western Feed - L.A. [Big4 Only - TV Pass]
 
-#EXTINF:-1 tvg-id="KABCDT1.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/WABC-TV-Logo-2021.png" group-title="USA",ABC [West-LA]
+#EXTINF:-1 tvg-id="KABCDT1.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/WABC-TV-Logo-2021.png" group-title="USA",K-ABC
 https://tvpass.org/live/abc-kabc-los-angeles-ca/hd
-#EXTINF:-1 tvg-id="CBS.(KCBS).Los.Angeles,.CA.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/CBS_Los_Angeles_logo.svg/1024px-CBS_Los_Angeles_logo.svg.png" group-title="USA",CBS [West-LA]
+#EXTINF:-1 tvg-id="CBS.(KCBS).Los.Angeles,.CA.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/CBS_Los_Angeles_logo.svg/1024px-CBS_Los_Angeles_logo.svg.png" group-title="USA",K-CBS
 https://tvpass.org/live/cbs-kcbs-los-angeles-ca/hd
-#EXTINF:-1 tvg-id="FOX.(KTTV).Los.Angeles,.CA.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Fts-los-angeles-a.svg/1024px-Fts-los-angeles-a.svg.png" group-title="USA",FOX [West-LA]
+#EXTINF:-1 tvg-id="FOX.(KTTV).Los.Angeles,.CA.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Fts-los-angeles-a.svg/1024px-Fts-los-angeles-a.svg.png" group-title="USA",K-FOX [West-LA]
 https://tvpass.org/live/fox-kttv-los-angeles-ca/hd
-#EXTINF:-1 tvg-id="NBC.(KNBC).Los.Angeles,.CA.us" tvg-name="NBC (KNBC)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/KNBC_2023.svg/1024px-KNBC_2023.svg.png" group-title="USA",NBC [West-LA]
+#EXTINF:-1 tvg-id="NBC.(KNBC).Los.Angeles,.CA.us" tvg-name="NBC (KNBC)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/KNBC_2023.svg/1024px-KNBC_2023.svg.png" group-title="USA",K-NBC
 https://tvpass.org/live/nbc-knbc-los-angeles-ca/hd
 
 # USA - Eastern Feed - N.Y.
 
-#EXTINF:-1 tvg-id="ABC.(WABC).New.York,.NY.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/WABC-TV-Logo-2021.png" group-title="USA",ABC [East-NY]
+#EXTINF:-1 tvg-id="ABC.(WABC).New.York,.NY.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/WABC-TV-Logo-2021.png" group-title="USA",W-ABC
 https://zekonew.newkso.ru/zeko/premium51/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://kisskissplay.cfd
-#EXTINF:-1 tvg-id="CBS.(WCBS).New.York,.NY.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/CBS_New_York_logo.svg/1024px-CBS_New_York_logo.svg.png" group-title="USA",CBS [East-NY]
+#EXTINF:-1 tvg-id="CBS.(WCBS).New.York,.NY.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/CBS_New_York_logo.svg/1024px-CBS_New_York_logo.svg.png" group-title="USA",W-CBS
 https://zekonew.newkso.ru/zeko/premium767/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://kisskissplay.cfd
-#EXTINF:-1 tvg-id="FOX.(WNYW).New.York,.NY.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/foxny.png" group-title="USA",FOX [East-NY]
+#EXTINF:-1 tvg-id="FOX.(WNYW).New.York,.NY.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/foxny.png" group-title="USA",W-FOX
 https://zekonew.newkso.ru/zeko/premium768/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://kisskissplay.cfd
-#EXTINF:-1 tvg-id="NBC.(WNBC).New.York,.NY.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/nbcny-usa.png" group-title="USA",NBC [East-NY]
+#EXTINF:-1 tvg-id="NBC.(WNBC).New.York,.NY.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/nbcny-usa.png" group-title="USA",W-NBC
 https://zekonew.newkso.ru/zeko/premium769/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://kisskissplay.cfd
 
 #EXTINF:-1 group-title="USA" tvg-id="C-SPAN.us" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10161_dark_360w_270h.png" tvg-name="C-SPAN",C-SPAN
