@@ -6,15 +6,15 @@ Referencing ONLY - The use of this file is strictly forbidden.
 # Portugal
 
 #EXTINF:-1 tvg-id="RTP1.pt" group-title="Portugal" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP1
-https://ddy6new.newkso.ru/ddy6/premium719/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium719/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="RTP2.pt" group-title="Portugal" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP2
-https://ddy6new.newkso.ru/ddy6/premium720/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium720/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="SIC.pt" group-title="Portugal" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
-https://ddy6new.newkso.ru/ddy6/premium722/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium722/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 group-title="Portugal" tvg-id="TVI.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Log%C3%B3tipo_TVI.png",TVI
 https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8xMy8yMDI1IDg6MjQ6MTYgQU0maGFzaF92YWx1ZT1ZNUhmbG51aTlhd1ZLSldiTmdaeTZBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZjEyNGYwZDItODRlMC00MDZhLThlODItNTZmNmJiMDcwMzZm/
 #EXTINF:-1 tvg-id="RTP3.pt" group-title="Portugal" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/Rtp3.png" ,RTP3
-https://ddy6new.newkso.ru/ddy6/premium721/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium721/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 group-title="Portugal" tvg-id="SICNoticias.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/SIC_Not%C3%ADcias_%282023%29.svg/1024px-SIC_Not%C3%ADcias_%282023%29.svg.png",SIC Notícias
 #EXTVLCOPT:http-referrer=https://sic.pt/
 #https://sicnot.live.impresa.pt/sicnot.m3u8
@@ -22,13 +22,13 @@ https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/in
 #EXTINF:-1 group-title="Portugal" tvg-id="CNNPortugal.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
 https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8xMy8yMDI1IDg6MjQ6MTYgQU0maGFzaF92YWx1ZT1ZT1RXK25WT2svWkpicDl0eWljMGlBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YWY3ZDBiNzgtYjFlNS00MWQ4LWE4ODktOTVmMzZlMDE1N2E5/
 #EXTINF:-1 tvg-id="CMTV.HD.pt" group-title="Portugal" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/cmtv.png",CMTV
-https://windnew.newkso.ru/wind/premium790/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
+https://windnew.newkso.ru/wind/premium790/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://kisskissplay.cfd
 #EXTINF:-1 group-title="Portugal" tvg-id="EuronewsPortuguese.fr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",Euronews PT
 https://euronews-live-por-pt.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6572/7392d4f0-7e24-4dbe-8482-f165e712eeed/5.m3u8
 #EXTINF:-1 group-title="Portugal" tvg-id="ARTV.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ARTV.png",ARTV
 https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8
 #EXTINF:-1 tvg-id="AXNMovies.pt" group-title="Portugal" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/axn-movies.png,AXN Movies
-https://ddy6new.newkso.ru/ddy6/premium717/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium717/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 
 
 # France
@@ -44,7 +44,7 @@ https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/N9d4yXt/fr5bl.png" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/France_5_-_logo_2018.svg/1024px-France_5_-_logo_2018.svg.png",France 5 🅶
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/fr5.m3u8
 #EXTINF:-1 tvg-id="M6.fr" group-title="France" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_(2020%2C_fond_clair).svg/1024px-Logo_M6_(2020%2C_fond_clair).svg.png" ,M6
-https://windnew.newkso.ru/wind/premium470/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://windnew.newkso.ru/wind/premium470/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/BPpZPBn/arte.png",arte 🅶
 https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
 #EXTINF:-1 group-title="France" tvg-id="LCP-AN.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/f/fd/Logo_LCP-AN_%282019%29.svg/1024px-Logo_LCP-AN_%282019%29.svg.png",LCP-Public Sénat
@@ -83,7 +83,7 @@ https://cherie25.nrjaudio.fm/hls/live/2038375/c25/master.m3u8
 http://gratuittv.free.fr/Files/parispremier/live/playlist.m3u8
 
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/ftYS2bk/CANAL-logo.png",Canal+
-https://windnew.newkso.ru/wind/premium121/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://windnew.newkso.ru/wind/premium121/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 
 #EXTINF:-1 group-title="France" tvg-logo="https://i.ibb.co/hKP8X8B/f24.png",France 24
 https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8
@@ -104,20 +104,20 @@ https://edge13.vedge.infomaniak.com/livecast/ik:puissancetelevision/manifest.m3u
 # Spain
 
 #EXTINF:-1 tvg-id="TVE1.es" group-title="Espana" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Logo_TVE-1.svg/1148px-Logo_TVE-1.svg.png" ,TVE 1
-https://dokko1new.newkso.ru/dokko1/premium533/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium533/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="TVE2.es" group-title="Espana" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Logo_TVE-2.svg/1097px-Logo_TVE-2.svg.png" ,TVE 2
-https://dokko1new.newkso.ru/dokko1/premium536/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium536/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="Antena3.es" group-title="Espana" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Antena_3_2025_%28sin_wordmark%29.svg/1092px-Antena_3_2025_%28sin_wordmark%29.svg.png" ,Antena 3
-https://dokko1new.newkso.ru/dokko1/premium531/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium531/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="Cuatro.es" group-title="Espana" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Logotipo_de_Cuatro.svg/1024px-Logotipo_de_Cuatro.svg.png",Cuatro
-https://dokko1new.newkso.ru/dokko1/premium535/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium535/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="Telecinco.es" group-title="Espana" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Telecinco.svg/1024px-Telecinco.svg.png",Telecinco
-https://dokko1new.newkso.ru/dokko1/premium532/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium532/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="LaSexta.es" group-title="Espana" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/LaSexta_2024_Logo.svg/827px-LaSexta_2024_Logo.svg.png" ,La Sexta
-https://dokko1new.newkso.ru/dokko1/premium534/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium534/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 
 #EXTINF:-1 tvg-id="Movistar+.es" group-title="Espana" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Movistar_Plus%2B_2022_logo.svg/1024px-Movistar_Plus%2B_2022_logo.svg.png" ,Movistar+
-https://zekonew.newkso.ru/zeko/premium437/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://zekonew.newkso.ru/zeko/premium437/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 
 #EXTINF:-1 tvg-id="ETB1.es" group-title="Espana" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/ETB1_2022_logo.svg/1024px-ETB1_2022_logo.svg.png" ,ETB 1
 https://multimedia.eitb.eus/live-content/etb1hd-hls/master.m3u8
@@ -131,60 +131,60 @@ https://directes3-tv-int.3catdirectes.cat/live-content/tvi-hls/bitrate_7.m3u8
 #EXTINF:-1 group-title="Espana" tvg-id="TVE24h.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Logo_TVE-24h.svg/1200px-Logo_TVE-24h.svg.png",Canal 24 horas
 https://rtvelivestream.akamaized.net/rtvesec/24h/24h_main.m3u8
 #EXTINF:-1 tvg-id="TDP.es" group-title="Espana" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/36/Tve_teledeporte.png",Teledeporte
-https://dokko1new.newkso.ru/dokko1/premium529/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium529/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 
 
 # Italy
 
 #EXTINF:-1 tvg-id="Rai1.it" group-title="Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Rai_1_logo.svg/1024px-Rai_1_logo.svg.png",Rai 1
-https://ddy6new.newkso.ru/ddy6/premium850/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium850/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="Rai2.it" group-title="Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Rai_2_logo.svg/1024px-Rai_2_logo.svg.png",Rai 2
-https://ddy6new.newkso.ru/ddy6/premium851/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium851/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="Rai3.it" group-title="Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Rai_3_logo.svg/1024px-Rai_3_logo.svg.png",Rai 3
-https://windnew.newkso.ru/wind/premium852/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://windnew.newkso.ru/wind/premium852/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="Canale5.it" group-title="Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/1222px-Canale_5_-_2018_logo.svg.png" ,Canale 5
-https://windnew.newkso.ru/wind/premium853/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://windnew.newkso.ru/wind/premium853/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="It1.it" group-title="Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Italia_1.svg/1024px-Italia_1.svg.png" ,Italia 1
-https://windnew.newkso.ru/wind/premium854/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://windnew.newkso.ru/wind/premium854/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="La7.it" group-title="Italia",La7
-https://windnew.newkso.ru/wind/premium855/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://windnew.newkso.ru/wind/premium855/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="20Mediaset.it" group-title="Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/20_Mediaset_2018.svg/1051px-20_Mediaset_2018.svg.png" ,20 Mediaset
-https://windnew.newkso.ru/wind/premium857/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://windnew.newkso.ru/wind/premium857/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 
 
 # United Kingdom
 
 #EXTINF:-1 tvg-id="BBC1.uk" group-title="UK" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/1024px-BBC_One_logo_2021.svg.png" ,BBC One
-https://ddy6new.newkso.ru/ddy6/premium356/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium356/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="BBC2.uk" group-title="UK" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/1024px-BBC_Two_logo_2021.svg.png" ,BBC Two
-https://dokko1new.newkso.ru/dokko1/premium357/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium357/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="ITV1.uk" group-title="UK" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/ITV1_logo_%282022%29.svg/1024px-ITV1_logo_%282022%29.svg.png" ,ITV1
-https://dokko1new.newkso.ru/dokko1/premium350/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium350/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="Channel4.uk" group-title="UK" tvg-logo=" https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Channel_4_%28On_Demand%29_2023.svg/759px-Channel_4_%28On_Demand%29_2023.svg.png" ,Channel 4
-https://windnew.newkso.ru/wind/premium354/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://windnew.newkso.ru/wind/premium354/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="Channel5.uk" group-title="UK" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Channel_5_%28UK%29_2016.svg/707px-Channel_5_%28UK%29_2016.svg.png" ,Channel 5
-https://zekonew.newkso.ru/zeko/premium355/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://zekonew.newkso.ru/zeko/premium355/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="BBC3.uk" group-title="UK" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/1024px-BBC_Three_2022.svg.png" ,BBC Three
-https://ddy6new.newkso.ru/ddy6/premium358/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium358/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="ITV2.uk" group-title="UK" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/ITV2_logo_2022.svg/1024px-ITV2_logo_2022.svg.png" ,ITV2
-https://zekonew.newkso.ru/zeko/premium351/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://zekonew.newkso.ru/zeko/premium351/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="BBC4.uk" group-title="UK" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/1024px-BBC_Four_logo_2021.svg.png" ,BBC Four
-https://dokko1new.newkso.ru/dokko1/premium359/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium359/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="ITV3.uk" group-title="UK" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/ITV3_logo_2022.svg/1024px-ITV3_logo_2022.svg.png" ,ITV3
-https://zekonew.newkso.ru/zeko/premium352/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://zekonew.newkso.ru/zeko/premium352/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="ITV4.uk" group-title="UK" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/ITV4_logo_%282022%29.svg/1024px-ITV4_logo_%282022%29.svg.png" ,ITV4
-https://ddy6new.newkso.ru/ddy6/premium353/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium353/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 
 #EXTINF:-1 tvg-id="S4C.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/s4c-uk.png" group-title="UK",S4C Wales
-https://dokko1new.newkso.ru/dokko1/premium670/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium670/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 
 
 # Ireland
 
 #EXTINF:-1 tvg-id="RTE1.ie" group-title="Ireland" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/RT%C3%89_One_2014.svg/1024px-RT%C3%89_One_2014.svg.png" ,RTÉ 1
-https://zekonew.newkso.ru/zeko/premium364/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://zekonew.newkso.ru/zeko/premium364/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="RTE2.ie" group-title="Ireland" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/11/RT%C3%892_logo.svg/1024px-RT%C3%892_logo.svg.png" ,RTÉ 2
-https://zekonew.newkso.ru/zeko/premium365/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://zekonew.newkso.ru/zeko/premium365/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 
 
 # Germany
@@ -194,23 +194,23 @@ https://derste247liveint.akamaized.net/hls/live/662735/daserste_int/index.m3u8
 #EXTINF:-1 group-title="Germany" tvg-id="ZDF.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/1024px-ZDF_logo.svg.png" ,ZDF 🅶
 https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8
 #EXTINF:-1 group-title="Germany" tvg-logo="https://i.ibb.co/Msmh0pG/rtlde.png",RTL
-https://ddy6new.newkso.ru/ddy6/premium740/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
+https://ddy6new.newkso.ru/ddy6/premium740/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="SAT1.de" group-title="Germany" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a3/SAT.1_logo_2016.png" ,SAT.1
-https://ddy6new.newkso.ru/ddy6/premium729/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium729/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="Pro7.de" group-title="Germany" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/ProSieben_Logo_2015.svg/1024px-ProSieben_Logo_2015.svg.png" ,ProSieben
-https://ddy6new.newkso.ru/ddy6/premium730/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium730/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="Kabel1.de" group-title="Germany" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Kabel_eins_Logo_2015.svg/1024px-Kabel_eins_Logo_2015.svg.png" ,Kabel Eins
-https://ddy6new.newkso.ru/ddy6/premium731/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium731/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="RTLZwei.de" group-title="Germany" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/993px-RTLZWEI_Logo_2019.svg.png" ,RTL Zwei
 http://178.219.128.68:64888/RTL2
 #EXTINF:-1 tvg-id="3sat.de" group-title="Germany" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/3sat-Logo.svg/1024px-3sat-Logo.svg.png" ,3sat
-https://ddy6new.newkso.ru/ddy6/premium726/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium726/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="SuperRTL.de" group-title="Germany" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/RTL_Super_Logo_2023.svg/1024px-RTL_Super_Logo_2023.svg.png" ,Super RTL
-https://ddy6new.newkso.ru/ddy6/premium738/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium738/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="Sixx.de" group-title="Germany" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sixx_Logo.svg/1024px-Sixx_Logo.svg.png" ,Sixx
-https://ddy6new.newkso.ru/ddy6/premium732/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium732/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="Pro7Maxx.de" group-title="Germany" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/ProSieben_MAXX_Logo.svg/1024px-ProSieben_MAXX_Logo.svg.png" ,ProSieben Maxx
-https://ddy6new.newkso.ru/ddy6/premium735/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium735/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 
 
 # Luxembourg
@@ -226,9 +226,9 @@ https://stream.rtl.lu/data/live/tele/channel2/playlist.m3u8
 #EXTINF:-1 group-title="Nordics" tvg-logo="https://i.ibb.co/6Rdh3h1Q/drtva.png",DR
 https://drlivedrtvahls.akamaized.net/hls/live/2113613/drlivedrtva/master.m3u8
 #EXTINF:-1 tvg-id="TV2.dk" group-title="Nordics",TV2
-https://ddy6new.newkso.ru/ddy6/premium817/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium817/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="TV3.dk" group-title="Nordics",TV3
-https://ddy6new.newkso.ru/ddy6/premium819/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium819/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="yle.fi" group-title="Nordics" tvg-logo="https://i.ibb.co/r29pMj4B/Ylew.png",yle
 https://yletvworld.akamaized.net/hls/live/622540/yletv1w/index.m3u8
 
@@ -238,9 +238,9 @@ https://yletvworld.akamaized.net/hls/live/622540/yletv1w/index.m3u8
 #EXTINF:-1 group-title="Poland" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/TVP_Info_%282024%29.svg/1024px-TVP_Info_%282024%29.svg.png",TVP Info
 https://irylek.ct8.pl/stream/tvpinfo?m3u8
 #EXTINF:-1 tvg-id="TVN24.pl" group-title="Poland" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Tvn24_Logo.svg/799px-Tvn24_Logo.svg.png",TVN24
-https://dokko1new.newkso.ru/dokko1/premium444/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium444/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="PolNews24.pl" group-title="Poland"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Polsat_News_2021_gradient.svg/767px-Polsat_News_2021_gradient.svg.png",Polsat News 24
-https://windnew.newkso.ru/wind/premium443/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://windnew.newkso.ru/wind/premium443/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 
 
 # Ukraine
@@ -298,42 +298,42 @@ https://tvpass.org/live/nbc-knbc-los-angeles-ca/hd
 # USA - Eastern Feed - N.Y.
 
 #EXTINF:-1 tvg-id="ABC.(WABC).New.York,.NY.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/WABC-TV-Logo-2021.png" group-title="USA",W-ABC
-https://zekonew.newkso.ru/zeko/premium51/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
+https://zekonew.newkso.ru/zeko/premium51/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="CBS.(WCBS).New.York,.NY.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/CBS_New_York_logo.svg/1024px-CBS_New_York_logo.svg.png" group-title="USA",W-CBS
-https://zekonew.newkso.ru/zeko/premium767/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
+https://zekonew.newkso.ru/zeko/premium767/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="FOX.(WNYW).New.York,.NY.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/foxny.png" group-title="USA",W-FOX
-https://zekonew.newkso.ru/zeko/premium768/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
+https://zekonew.newkso.ru/zeko/premium768/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="NBC.(WNBC).New.York,.NY.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/nbcny-usa.png" group-title="USA",W-NBC
-https://zekonew.newkso.ru/zeko/premium769/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
+https://zekonew.newkso.ru/zeko/premium769/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://kisskissplay.cfd
 
 #EXTINF:-1 group-title="USA" tvg-id="C-SPAN.us" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10161_dark_360w_270h.png" tvg-name="C-SPAN",C-SPAN
 http://fl2.moveonjoy.com/C-SPAN/index.m3u8
 
 #EXTINF:-1 tvg-id="Comedy.Central.(US).-.Eastern.Feed.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/comedy-central.png" group-title="USA",Comedy Central
-https://zekonew.newkso.ru/zeko/premium310/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
+https://zekonew.newkso.ru/zeko/premium310/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="VICE.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/vice-tv.png" group-title="USA",Vice TV
-https://dokko1new.newkso.ru/dokko1/premium659/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
+https://dokko1new.newkso.ru/dokko1/premium659/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://kisskissplay.cfd
 
 #EXTINF:-1 tvg-id="ParamountNetworkEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Paramount_Network_2024.svg/1024px-Paramount_Network_2024.svg.png" group-title="USA" ,Paramount Network
 http://fl2.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8
 
 #EXTINF:-1 tvg-id="FX.Networks.East.Coast.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/fx-usa.png" group-title="USA",FX
-https://zekonew.newkso.ru/zeko/premium317/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
+https://zekonew.newkso.ru/zeko/premium317/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="FXX.USA.-.Eastern.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/fxx-usa.png" group-title="USA",FXX
-https://ddy6new.newkso.ru/ddy6/premium298/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
+https://ddy6new.newkso.ru/ddy6/premium298/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://kisskissplay.cfd
 
 #EXTINF:-1 tvg-id="AMC.-.Eastern.Feed.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/amc.png" group-title="USA",AMC
-https://nfsnew.newkso.ru/nfs/premium303/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
+https://nfsnew.newkso.ru/nfs/premium303/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://kisskissplay.cfd
 
 #EXTINF:-1 tvg-id="HBO.-.Eastern.Feed.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/hbo-usa.png" group-title="USA",HBO
-https://zekonew.newkso.ru/zeko/premium321/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
+https://zekonew.newkso.ru/zeko/premium321/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="HBO.2.-.Eastern.Feed.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/hbo-2-usa.png" group-title="USA",HBO2
-https://nfsnew.newkso.ru/nfs/premium689/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
+https://nfsnew.newkso.ru/nfs/premium689/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://kisskissplay.cfd
 
 #EXTINF:-1 tvg-id="Paramount+.with.Showtime.-.Eastern.Feed.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/showtime-usa.png" group-title="USA",ShowTime
-https://windnew.newkso.ru/wind/premium333/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
+https://windnew.newkso.ru/wind/premium333/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://kisskissplay.cfd
 #EXTINF:-1 tvg-id="Showtime.2.-.Eastern.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/showtime-2-usa.png" group-title="USA",ShowTime 2
-https://windnew.newkso.ru/wind/premium792/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
+https://windnew.newkso.ru/wind/premium792/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://kisskissplay.cfd
 
 #EXTINF:-1 tvg-id="SyfyEast.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/syfy-usa.png" group-title="USA" ,Syfy
 http://fl2.moveonjoy.com/SYFY/index.m3u8
@@ -353,7 +353,7 @@ https://nfsnew.newkso.ru/nfs/premium345/mono.m3u8|Referer=https://dokoplay.xyz/|
 #EXTINF:-1 tvg-id="CNBC.USA.us" group-title="Info" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/961px-CNBC_logo.svg.png",CNBC
 https://zekonew.newkso.ru/zeko/premium309/mono.m3u8|Referer=https://dokoplay.xyz/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://dokoplay.xyz
 #EXTINF:-1 tvg-id="Fox.News.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/fox-news.png" group-title="Info",Fox News
-https://zekonew.newkso.ru/zeko/premium347/mono.m3u8|Referer=https://webxzplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://webxzplay.cfd
+https://zekonew.newkso.ru/zeko/premium347/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1|Origin=https://kisskissplay.cfd
 
 #EXTINF:-1 group-title="Info" tvg-id="NHKWorldJapan.jp" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/NHK-World.png",NHK World Japan
 #KODIPROP:inputstream=inputstream.adaptive
@@ -368,7 +368,7 @@ https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master.m3u8
 #EXTINF:-1 group-title="Info" tvg-logo="https://i.ibb.co/Vt0XZKf/Cbcnews.png",CBC News
 https://d36tuf8zz9b2bm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-hfw6opvomwxih/CBC_News_International.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/BBC_News_2022_%28Alt%2C_boxed%29.svg/1024px-BBC_News_2022_%28Alt%2C_boxed%29.svg.png" group-title="Info",BBC News
-https://dokko1new.newkso.ru/dokko1/premium349/mono.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://cookiewebplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium349/mono.m3u8|Referer=https://kisskissplay.cfd/|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36|Origin=https://kisskissplay.cfd
 #EXTINF:-1 group-title="Info" tvg-id="SkyNewsInternational.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sky_News_logo.svg/1024px-Sky_News_logo.svg.png",Sky News
 #KODIPROP:inputstream=inputstream.adaptive
 https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
